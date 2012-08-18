@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Shern Shiou]]></title>
-  <link href="http://tranquil-bastion-2708.herokuapp.com//atom.xml" rel="self"/>
+  <title><![CDATA[Category: Photo | Shern Shiou]]></title>
+  <link href="http://tranquil-bastion-2708.herokuapp.com//blog/categories/photo/atom.xml" rel="self"/>
   <link href="http://tranquil-bastion-2708.herokuapp.com//"/>
   <updated>2012-08-18T23:02:38+08:00</updated>
   <id>http://tranquil-bastion-2708.herokuapp.com//</id>
@@ -18,7 +18,7 @@
     <link href="http://tranquil-bastion-2708.herokuapp.com//blog/2011/04/14/ikea/"/>
     <updated>2011-04-14T00:00:00+08:00</updated>
     <id>http://tranquil-bastion-2708.herokuapp.com//blog/2011/04/14/ikea</id>
-    <content type="html"><![CDATA[<p><img class="[center]" src="http://tranquil-bastion-2708.herokuapp.com//images/gallery/ikea.jpg" title="[400] [300] [Ikea [Ikea]]" ></p>
+    <content type="html"><![CDATA[<p><img class="[center]" src="/images/gallery/ikea.jpg" title="[400] [300] [Ikea [Ikea]]" ></p>
 ]]></content>
   </entry>
   

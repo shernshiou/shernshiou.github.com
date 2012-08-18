@@ -1,0 +1,8 @@
+---
+layout: post
+title: "IKEA"
+date: 2011-04-14 00:00
+comments: true
+categories: [Life, Photo]
+---
+{% img [center] /images/gallery/ikea.jpg [400] [300] [Ikea [Ikea]] %}
