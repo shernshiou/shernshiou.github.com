@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Keeping yourself up to date"
-date: 2012-04-20 00:00
+date: 2011-04-20 00:00
 comments: true
 categories: Thought, Tech
 ---
