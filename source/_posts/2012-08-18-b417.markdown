@@ -1,0 +1,8 @@
+---
+layout: post
+title: "B417"
+date: 2011-04-18 00:00
+comments: true
+categories: [Work, Photo]
+---
+{% img center /images/gallery/b417.jpg 640 480 PRSB B417 %}
