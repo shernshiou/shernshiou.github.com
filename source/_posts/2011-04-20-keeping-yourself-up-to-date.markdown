@@ -3,7 +3,7 @@ layout: post
 title: "Keeping yourself up to date"
 date: 2011-04-20 00:00
 comments: true
-categories: Thought, Tech
+categories: [Thought, Tech]
 ---
 I always believe you need to keep yourself abreast with new technologies if your day in and day out activities have to do with computer. You cannot runaway from learning new stuffs everyday if you would like to maintain your competitive in your field. This applies especially to those who majored in computing field be it Computer Science or Information Technology. Self learning is the no. 1 skill needed followed by Googl-ing. If you are resistant to change, you might be the next dinosaur waiting to be replaced.
 Luckily, by taking advantage of the cloud, the people who work side by side with computers are able to keep themselves updated by using the tools online.

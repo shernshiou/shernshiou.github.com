@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Crap Food"
+date: 2011-04-25 00:00
+comments: true
+categories: [Food, Photo]
+---
+{% img center /images/gallery/crap_food.jpg 640 480 Huge Crap Seafood Restaurent %}
