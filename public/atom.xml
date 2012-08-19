@@ -4,7 +4,7 @@
   <title><![CDATA[Shern Shiou]]></title>
   <link href="http://tranquil-bastion-2708.herokuapp.com//atom.xml" rel="self"/>
   <link href="http://tranquil-bastion-2708.herokuapp.com//"/>
-  <updated>2012-08-19T21:55:27+08:00</updated>
+  <updated>2012-08-19T22:25:15+08:00</updated>
   <id>http://tranquil-bastion-2708.herokuapp.com//</id>
   <author>
     <name><![CDATA[shernshiou]]></name>
@@ -12,6 +12,16 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Cuti-cuti Malaysia]]></title>
+    <link href="http://tranquil-bastion-2708.herokuapp.com//blog/2011/05/09/cuti-cuti-malaysia/"/>
+    <updated>2011-05-09T00:00:00+08:00</updated>
+    <id>http://tranquil-bastion-2708.herokuapp.com//blog/2011/05/09/cuti-cuti-malaysia</id>
+    <content type="html"><![CDATA[<p><img class="center" src="http://tranquil-bastion-2708.herokuapp.com//images/gallery/redang.jpg" width="480" height="270" title="Pulau Redang" >
+Can anyone identify where is this pretty beach?</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Crap Food]]></title>
