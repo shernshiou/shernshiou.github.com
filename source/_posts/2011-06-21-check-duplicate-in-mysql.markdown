@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Check Duplicate in MySQL"
-date: 2012-06-21 00:00
+date: 2011-06-21 00:00
 comments: true
 categories: [Database, Code]
 ---

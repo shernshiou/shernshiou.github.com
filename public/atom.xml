@@ -4,7 +4,7 @@
   <title><![CDATA[Shern Shiou]]></title>
   <link href="http://tranquil-bastion-2708.herokuapp.com//atom.xml" rel="self"/>
   <link href="http://tranquil-bastion-2708.herokuapp.com//"/>
-  <updated>2012-08-20T21:38:27+08:00</updated>
+  <updated>2012-08-20T21:44:17+08:00</updated>
   <id>http://tranquil-bastion-2708.herokuapp.com//</id>
   <author>
     <name><![CDATA[shernshiou]]></name>
@@ -14,10 +14,22 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Installing Boost]]></title>
+    <link href="http://tranquil-bastion-2708.herokuapp.com//blog/2011/06/23/installing-boost/"/>
+    <updated>2011-06-23T00:00:00+08:00</updated>
+    <id>http://tranquil-bastion-2708.herokuapp.com//blog/2011/06/23/installing-boost</id>
+    <content type="html"><![CDATA[<p>Simple command to install Boost for Ubuntu</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class=""><span class="line">sudo apt-get install libboost-dev libboost-doc</span></code></pre></td></tr></table></div></figure></notextile></div>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Check Duplicate in MySQL]]></title>
-    <link href="http://tranquil-bastion-2708.herokuapp.com//blog/2012/06/21/check-duplicate-in-mysql/"/>
-    <updated>2012-06-21T00:00:00+08:00</updated>
-    <id>http://tranquil-bastion-2708.herokuapp.com//blog/2012/06/21/check-duplicate-in-mysql</id>
+    <link href="http://tranquil-bastion-2708.herokuapp.com//blog/2011/06/21/check-duplicate-in-mysql/"/>
+    <updated>2011-06-21T00:00:00+08:00</updated>
+    <id>http://tranquil-bastion-2708.herokuapp.com//blog/2011/06/21/check-duplicate-in-mysql</id>
     <content type="html"><![CDATA[<p>Simple snippet:</p>
 
 <div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span>SQL to check duplicate entry</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
