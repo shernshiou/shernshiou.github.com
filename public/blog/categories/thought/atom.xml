@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Thought | Shern Shiou]]></title>
   <link href="http://tranquil-bastion-2708.herokuapp.com//blog/categories/thought/atom.xml" rel="self"/>
   <link href="http://tranquil-bastion-2708.herokuapp.com//"/>
-  <updated>2012-08-21T01:06:36+08:00</updated>
+  <updated>2012-08-21T01:09:08+08:00</updated>
   <id>http://tranquil-bastion-2708.herokuapp.com//</id>
   <author>
     <name><![CDATA[shernshiou]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Robert Frost's Decision]]></title>
+    <link href="http://tranquil-bastion-2708.herokuapp.com//blog/2012/02/27/robert-frosts-decision/"/>
+    <updated>2012-02-27T00:00:00+08:00</updated>
+    <id>http://tranquil-bastion-2708.herokuapp.com//blog/2012/02/27/robert-frosts-decision</id>
+    <content type="html"><![CDATA[<p>During my secondary school, everyone in the school read a poem by Robert Frost called The Road Not Taken. It questions us to pick a path for your future. It teaches me on being responsible on the decisions. Its has been years after I first encountered this poem, this poem still does not fail to frequent me whenever I am making hard decisions. Dear Robert, did you really sigh when you took the road less taken? Just so you know, I do not think your sigh is a sign of regret. I guess its a human norm. In the end, human is just the greedy bunch. There is another thing I learnt so far. There is a greater power that is not up above but resides within yourself. When the moment comes, the moment that requires your decision, the answer will appear. It comes straight from your heart. No matter how much you wanna reject it, you just cant. Its instinct. Just follow your instinct, believe in yourself, be responsible, the world will be brighter.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[New Life]]></title>
@@ -89,39 +98,6 @@ LEFT 90
 
 <h3 id="what-is-data-engineering">What is Data Engineering?</h3>
 <p>We need people who are expert in managing the data. The experts may not be of computer science background because data engineering has been part of many profession. For example, statistician/mathematician often are good in explaining huge amount of data while neurologists have the knowledge on the data management inside our human brain. Their job scope should include more than choosing the right storage to preserve the data, system to organize the data, technology to retrieve the data. Data engineer need to churn out useful information from the data collection, explains the phenomenon and understand their nature. Data engineering will be the trend in the future while Computer Science will aid in providing tools to increase the performance of data engineer especially Machine Learning.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Keeping yourself up to date]]></title>
-    <link href="http://tranquil-bastion-2708.herokuapp.com//blog/2011/04/20/keeping-yourself-up-to-date/"/>
-    <updated>2011-04-20T00:00:00+08:00</updated>
-    <id>http://tranquil-bastion-2708.herokuapp.com//blog/2011/04/20/keeping-yourself-up-to-date</id>
-    <content type="html"><![CDATA[<p>I always believe you need to keep yourself abreast with new technologies if your day in and day out activities have to do with computer. You cannot runaway from learning new stuffs everyday if you would like to maintain your competitive in your field. This applies especially to those who majored in computing field be it Computer Science or Information Technology. Self learning is the no. 1 skill needed followed by Googl-ing. If you resist to change, you might be the next dinosaur waiting to be replaced.
-Luckily, by taking advantage of the Internet, the people who work side by side with computers are able to keep themselves updated by using the tools online.
-## Social Media
-- Have a Twitter account and subscribe to tech news such as @mashable, @engadget …
-- Official company Twitter like @microsoft, @google will twit about their product improvements and whats new.
-Famous people like @kevinrose, @jeresig might provide insights on latest / future interesting tech
-## News
-- Use feedreader like Google Reader to subscribe to the latest tech news and blogs for upcoming news through feed like Gizmodo, BGR
-- Join HN (http://news.ycombinator.com) where bleeding edge tech news are shared
-- Sites like Reddit and Digg has some tech categories in it. Be sure to check it out.
-- Newspaper (and any media linked to conventional newspaper agencies) are outdated can be completely waste of time.
-## QA Knowledge Market
-- Having doubts on something you barely know? Ask in Quora or Stackexchange. The people there are extremely helpful.
-- Stackexchange has several different sites serving different needs. Go to Stackoverflow for more in-depth computing coverage.
-## Podcast / Videocast
-- Constantly checkout the podcast and videocast for new techniques (covering how to program..)
-- Youtube and Vimeo serve a lot of video. Search and subscribe.
-- TED.com is another source of interesting lecture on brilliant ideas.
-## Honorable Mentions
-- Facebook pages too serve some interesting information.
-- For anything else, there is always our mighty Wikipedia.</p>
-
-<blockquote>
-  <p>Be sure to keep yourself up to date, what you did in campus is the past.</p>
-</blockquote>
 ]]></content>
   </entry>
   
