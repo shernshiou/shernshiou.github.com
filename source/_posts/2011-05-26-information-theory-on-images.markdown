@@ -3,7 +3,7 @@ layout: post
 title: "Information Theory on Images"
 date: 2011-05-26 00:00
 comments: true
-categories: 
+categories: [Computing, Research]
 ---
 In the past, I have always encountered these questions while doing my research. To truly emulate human vision perception in computer vision, I need to understand how the mechanism works. These questions form the fundamental mechanism of human vision. Therefore, I decided to compute several images to proof my believe. My main hypothesis is human vision is represented in HSV colour model rather than RGB colour model. To proof this, I will be using basic Information Theory to compute the information composition in an single image both RGB and HSV.
 

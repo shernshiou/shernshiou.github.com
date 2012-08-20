@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Joke | Shern Shiou]]></title>
+  <link href="http://tranquil-bastion-2708.herokuapp.com//blog/categories/joke/atom.xml" rel="self"/>
+  <link href="http://tranquil-bastion-2708.herokuapp.com//"/>
+  <updated>2012-08-20T21:34:05+08:00</updated>
+  <id>http://tranquil-bastion-2708.herokuapp.com//</id>
+  <author>
+    <name><![CDATA[shernshiou]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Level of Desperation]]></title>
+    <link href="http://tranquil-bastion-2708.herokuapp.com//blog/2011/06/08/level-of-desperation/"/>
+    <updated>2011-06-08T00:00:00+08:00</updated>
+    <id>http://tranquil-bastion-2708.herokuapp.com//blog/2011/06/08/level-of-desperation</id>
+    <content type="html"><![CDATA[<p>Level 1: You miss that thing.</p>
+
+<p>Level 2: You think of it everyday.</p>
+
+<p>Level 3: You are finding something to replace it.</p>
+
+<p>Level 4: You try to convince yourself that you have it.</p>
+
+<p>Level 5: You hypnotized yourself that you are having it.. but your heart has given up.</p>
+
+<p>Level 6: You already found a replacement for it.</p>
+
+<blockquote>
+  <p>p/s: Sorry I do not have a Richter Scale for it.</p>
+</blockquote>
+]]></content>
+  </entry>
+  
+</feed>
