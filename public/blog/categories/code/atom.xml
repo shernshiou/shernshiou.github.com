@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Code | Shern Shiou]]></title>
   <link href="http://tranquil-bastion-2708.herokuapp.com//blog/categories/code/atom.xml" rel="self"/>
   <link href="http://tranquil-bastion-2708.herokuapp.com//"/>
-  <updated>2012-08-20T21:34:05+08:00</updated>
+  <updated>2012-08-20T21:38:27+08:00</updated>
   <id>http://tranquil-bastion-2708.herokuapp.com//</id>
   <author>
     <name><![CDATA[shernshiou]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Check Duplicate in MySQL]]></title>
+    <link href="http://tranquil-bastion-2708.herokuapp.com//blog/2012/06/21/check-duplicate-in-mysql/"/>
+    <updated>2012-06-21T00:00:00+08:00</updated>
+    <id>http://tranquil-bastion-2708.herokuapp.com//blog/2012/06/21/check-duplicate-in-mysql</id>
+    <content type="html"><![CDATA[<p>Simple snippet:</p>
+
+<p><code>sql SQL to check duplicate entry
+SELECT `name`, COUNT(`name`) as cnt
+FROM `members`
+GROUP BY `name`
+HAVING cnt &gt; 1
+ORDER by cnt;
+</code></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[CSS3 Gradient and Transparency]]></title>
