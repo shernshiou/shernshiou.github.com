@@ -3,7 +3,7 @@ layout: post
 title: "New Life"
 date: 2011-11-03 00:00
 comments: true
-categories: [Thought, Life]
+categories: [Thought, Life, Job]
 ---
 After a month into my new job, I got my new life.  
 Despite the jam, I woke up early to get to my office.  
