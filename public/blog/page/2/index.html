@@ -9,7 +9,7 @@
   <meta name="author" content="shernshiou">
 
   
-  <meta name="description" content="Due to inconsistency of CSS3 implementation across different web browser, I wish to leave some note on Gradient and Transparency. Transparency &hellip;">
+  <meta name="description" content="In the past, I have always encountered these questions while doing my research. To truly emulate human vision perception in computer vision, I need &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -92,6 +92,74 @@ MathJax.Hub.Config({
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2011/05/26/information-theory-on-images/">Information Theory on Images</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-05-26T00:00:00+08:00" pubdate data-updated="true">May 26<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>In the past, I have always encountered these questions while doing my research. To truly emulate human vision perception in computer vision, I need to understand how the mechanism works. These questions form the fundamental mechanism of human vision. Therefore, I decided to compute several images to proof my believe. My main hypothesis is human vision is represented in HSV colour model rather than RGB colour model. To proof this, I will be using basic Information Theory to compute the information composition in an single image both RGB and HSV.</p>
+
+<h3 id="information-theory">Information Theory</h3>
+
+<script type="math/tex; mode=display">
+\begin{equation} H(X) = -\sum_{x \in \mathcal{X}} p(x) \log_b p(x). \end{equation}
+</script>
+
+<h6 id="shannons-entropy-equation">Shannon’s Entropy Equation</h6>
+
+<p>The basic Shannon Entropy will be used to compute each individual plane in an image. This entropy is used to measure the unpredictability. The easier to predict, the lower the entropy it has. In this case, I also made an assumption that entropy directly relate to the information contained / encoded within. If you need detail description on Shannon Entropy, head over to <a href="http://en.wikipedia.org/wiki/Entropy_(information_theory)">http://en.wikipedia.org/wiki/Entropy_(information_theory)</a> which contains fairly understandable explanation.</p>
+
+<h3 id="methods">Methods</h3>
+<p>A set of 20 various images from grayscale to single colour, from human and non-human images are collected. Entropy will be computed on grayscale mode, Red plane, Blue plane, Green plane as well as Hue plane, Saturation plane and Intensity.</p>
+
+<h3 id="results-and-explanation">Results and Explanation</h3>
+<p><img class="center" src="/images/gallery/entropy_result.png" width="483" height="431" title="Result Table" />
+As expected RGB plane has pretty similar entropy in every images. If one of the plane has low entropy, both the plane will follow including the grayscale version of the image. On the other hand, HSV has a pretty interesting results. Averagely, Intensity plane has higher entropy than the other Hue and Saturation. In the event of grayscale image (note Image 17 and 18), Intensity contain entropy but not the other two.</p>
+
+<h3 id="conclusion">Conclusion</h3>
+<ol>
+  <li>Intensity planes contain more information. Therefore, we are able to perceive an image from only the intensity plane.</li>
+  <li>Single colour image does has information but when converted to HSV plane, it represents 0 entropy in every plane.</li>
+  <li>Human vision is closer to HSV than RGB. Notes: Cone cell in retina</li>
+</ol>
+
+<h3 id="references">References</h3>
+<ol>
+  <li>Wikipedia on Shannon Entropy <a href="http://en.wikipedia.org/wiki/Entropy_(information_theory)">http://en.wikipedia.org/wiki/Entropy_(information_theory)</a></li>
+  <li>Beginner explanation of how entropy is applied in classification <a href="http://stackoverflow.com/questions/1859554/what-is-entropy-and-information-gain">http://stackoverflow.com/questions/1859554/what-is-entropy-and-information-gain</a></li>
+  <li>Kodak Lossless Image Suite used in Sample Images <a href="http://r0k.us/graphics/kodak/">http://r0k.us/graphics/kodak/</a></li>
+</ol>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -424,6 +492,10 @@ Famous people like @kevinrose, @jeresig might provide insights on latest / futur
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2012/02/23/wooooot/">Wooooot!</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2011/11/03/new-life/">New Life</a>
       </li>
     
@@ -437,10 +509,6 @@ Famous people like @kevinrose, @jeresig might provide insights on latest / futur
     
       <li class="post">
         <a href="/blog/2011/07/14/teka-teki/">Teka Teki</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2011/07/11/bersih-really-rally/">Bersih Really Rally?</a>
       </li>
     
   </ul>
