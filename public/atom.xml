@@ -4,7 +4,7 @@
   <title><![CDATA[Shern Shiou]]></title>
   <link href="http://tranquil-bastion-2708.herokuapp.com//atom.xml" rel="self"/>
   <link href="http://tranquil-bastion-2708.herokuapp.com//"/>
-  <updated>2012-08-20T19:20:07+08:00</updated>
+  <updated>2012-08-20T20:14:04+08:00</updated>
   <id>http://tranquil-bastion-2708.herokuapp.com//</id>
   <author>
     <name><![CDATA[shernshiou]]></name>
@@ -14,55 +14,84 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Information Theory on Images]]></title>
+    <link href="http://tranquil-bastion-2708.herokuapp.com//blog/2011/05/26/information-theory-on-images/"/>
+    <updated>2011-05-26T00:00:00+08:00</updated>
+    <id>http://tranquil-bastion-2708.herokuapp.com//blog/2011/05/26/information-theory-on-images</id>
+    <content type="html"><![CDATA[<p>In the past, I have always encountered these questions while doing my research. To truly emulate human vision perception in computer vision, I need to understand how the mechanism works. These questions form the fundamental mechanism of human vision. Therefore, I decided to compute several images to proof my believe. My main hypothesis is human vision is represented in HSV colour model rather than RGB colour model. To proof this, I will be using basic Information Theory to compute the information composition in an single image both RGB and HSV.</p>
+
+<h3 id="information-theory">Information Theory</h3>
+
+<script type="math/tex; mode=display">
+\begin{equation} H(X) = -\sum_{x \in \mathcal{X}} p(x) \log_b p(x). \end{equation}
+</script>
+
+<h6 id="shannons-entropy-equation">Shannon’s Entropy Equation</h6>
+
+<p>The basic Shannon Entropy will be used to compute each individual plane in an image. This entropy is used to measure the unpredictability. The easier to predict, the lower the entropy it has. In this case, I also made an assumption that entropy directly relate to the information contained / encoded within. If you need detail description on Shannon Entropy, head over to <a href="http://en.wikipedia.org/wiki/Entropy_(information_theory)">http://en.wikipedia.org/wiki/Entropy_(information_theory)</a> which contains fairly understandable explanation.</p>
+
+<h3 id="methods">Methods</h3>
+<p>A set of 20 various images from grayscale to single colour, from human and non-human images are collected. Entropy will be computed on grayscale mode, Red plane, Blue plane, Green plane as well as Hue plane, Saturation plane and Intensity.</p>
+
+<h3 id="results-and-explanation">Results and Explanation</h3>
+<p><img class="center" src="http://tranquil-bastion-2708.herokuapp.com//images/gallery/entropy_result.png" width="483" height="431" title="Result Table" />
+As expected RGB plane has pretty similar entropy in every images. If one of the plane has low entropy, both the plane will follow including the grayscale version of the image. On the other hand, HSV has a pretty interesting results. Averagely, Intensity plane has higher entropy than the other Hue and Saturation. In the event of grayscale image (note Image 17 and 18), Intensity contain entropy but not the other two.</p>
+
+<h3 id="conclusion">Conclusion</h3>
+<ol>
+  <li>Intensity planes contain more information. Therefore, we are able to perceive an image from only the intensity plane.</li>
+  <li>Single colour image does has information but when converted to HSV plane, it represents 0 entropy in every plane.</li>
+  <li>Human vision is closer to HSV than RGB. Notes: Cone cell in retina</li>
+</ol>
+
+<h3 id="references">References</h3>
+<ol>
+  <li>Wikipedia on Shannon Entropy <a href="http://en.wikipedia.org/wiki/Entropy_(information_theory)">http://en.wikipedia.org/wiki/Entropy_(information_theory)</a></li>
+  <li>Beginner explanation of how entropy is applied in classification <a href="http://stackoverflow.com/questions/1859554/what-is-entropy-and-information-gain">http://stackoverflow.com/questions/1859554/what-is-entropy-and-information-gain</a></li>
+  <li>Kodak Lossless Image Suite used in Sample Images <a href="http://r0k.us/graphics/kodak/">http://r0k.us/graphics/kodak/</a></li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[CSS3 Gradient and Transparency]]></title>
     <link href="http://tranquil-bastion-2708.herokuapp.com//blog/2011/05/16/css3-gradient-and-transparency/"/>
     <updated>2011-05-16T00:00:00+08:00</updated>
     <id>http://tranquil-bastion-2708.herokuapp.com//blog/2011/05/16/css3-gradient-and-transparency</id>
     <content type="html"><![CDATA[<p>Due to inconsistency of CSS3 implementation across different web browser, I wish to leave some note on Gradient and Transparency.</p>
 
-<h4>Transparency</h4>
+<h4 id="transparency">Transparency</h4>
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span>Mozilla and Webkit based</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class="css"><span class="line"><span class="nt">background</span><span class="o">:</span> <span class="nt">rgba</span><span class="o">(</span><span class="nt">0</span><span class="o">,</span><span class="nt">0</span><span class="o">,</span><span class="nt">0</span><span class="o">,</span><span class="nt">0</span><span class="nc">.3</span><span class="o">);</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span>IE based</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+</pre></td><td class="code"><pre><code class="css"><span class="line"><span class="nt">background</span><span class="nd">:transparent</span><span class="o">;</span>
+</span><span class="line"><span class="nt">filter</span><span class="nd">:progid:DXImageTransform</span><span class="nc">.Microsoft.gradient</span><span class="o">(</span><span class="nt">startColorstr</span><span class="o">=</span><span class="nf">#50000000</span><span class="o">,</span><span class="nt">endColorstr</span><span class="o">=</span><span class="nf">#50000000</span><span class="o">);</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
 
-<figure class='code'><figcaption><span>Mozilla and Webkit based</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='css'><span class='line'><span class="nt">background</span><span class="o">:</span> <span class="nt">rgba</span><span class="o">(</span><span class="nt">0</span><span class="o">,</span><span class="nt">0</span><span class="o">,</span><span class="nt">0</span><span class="o">,</span><span class="nt">0</span><span class="nc">.3</span><span class="o">);</span>
-</span></code></pre></td></tr></table></div></figure>
+<h4 id="gradient">Gradient</h4>
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span>Mozilla based</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class="css"><span class="line"><span class="nt">background</span><span class="o">:</span> <span class="nt">-moz-linear-gradient</span><span class="o">(</span><span class="nt">rgba</span><span class="o">(</span><span class="nt">255</span><span class="o">,</span><span class="nt">131</span><span class="o">,</span><span class="nt">126</span><span class="o">,</span><span class="nt">1</span><span class="o">)</span> <span class="nt">0</span><span class="o">%,</span> <span class="o">(</span><span class="nt">255</span><span class="o">,</span><span class="nt">131</span><span class="o">,</span><span class="nt">126</span><span class="o">,</span><span class="nt">0</span><span class="o">)</span> <span class="nt">95</span><span class="o">%;</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span>Webkit based</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+</pre></td><td class="code"><pre><code class="css"><span class="line"><span class="nt">background</span><span class="o">:</span> <span class="nt">-webkit-gradient</span><span class="o">(</span><span class="nt">linear</span><span class="o">,</span> <span class="nt">left</span> <span class="nt">top</span><span class="o">,</span> <span class="nt">left</span> <span class="nt">bottom</span><span class="o">,</span>
+</span><span class="line"><span class="nt">from</span><span class="o">(</span><span class="nt">rgba</span><span class="o">(</span><span class="nt">255</span><span class="o">,</span><span class="nt">131</span><span class="o">,</span><span class="nt">126</span><span class="o">,</span><span class="nt">1</span><span class="o">)),</span><span class="nt">to</span><span class="o">(</span><span class="nt">rgba</span><span class="o">(</span><span class="nt">255</span><span class="o">,</span><span class="nt">131</span><span class="o">,</span><span class="nt">126</span><span class="o">,</span><span class="nt">0</span><span class="o">)));</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span>IE based</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+</pre></td><td class="code"><pre><code class="css"><span class="line"><span class="nt">background</span><span class="nd">:transparent</span><span class="o">;</span>
+</span><span class="line"><span class="nt">filter</span><span class="o">:</span> <span class="nt">progid</span><span class="nd">:DXImageTransform</span><span class="nc">.Microsoft.gradient</span><span class="o">(</span><span class="nt">startColorstr</span><span class="o">=</span><span class="nf">#FFFF837E</span><span class="o">,</span> <span class="nt">endColorstr</span><span class="o">=</span><span class="nf">#00FF837E</span><span class="o">);</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
 
-
-<figure class='code'><figcaption><span>IE based</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class='css'><span class='line'><span class="nt">background</span><span class="nd">:transparent</span><span class="o">;</span>
-</span><span class='line'><span class="nt">filter</span><span class="nd">:progid:DXImageTransform</span><span class="nc">.Microsoft.gradient</span><span class="o">(</span><span class="nt">startColorstr</span><span class="o">=</span><span class="nf">#50000000</span><span class="o">,</span><span class="nt">endColorstr</span><span class="o">=</span><span class="nf">#50000000</span><span class="o">);</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<h4>Gradient</h4>
-
-<figure class='code'><figcaption><span>Mozilla based</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='css'><span class='line'><span class="nt">background</span><span class="o">:</span> <span class="nt">-moz-linear-gradient</span><span class="o">(</span><span class="nt">rgba</span><span class="o">(</span><span class="nt">255</span><span class="o">,</span><span class="nt">131</span><span class="o">,</span><span class="nt">126</span><span class="o">,</span><span class="nt">1</span><span class="o">)</span> <span class="nt">0</span><span class="o">%,</span> <span class="o">(</span><span class="nt">255</span><span class="o">,</span><span class="nt">131</span><span class="o">,</span><span class="nt">126</span><span class="o">,</span><span class="nt">0</span><span class="o">)</span> <span class="nt">95</span><span class="o">%;</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<figure class='code'><figcaption><span>Webkit based</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class='css'><span class='line'><span class="nt">background</span><span class="o">:</span> <span class="nt">-webkit-gradient</span><span class="o">(</span><span class="nt">linear</span><span class="o">,</span> <span class="nt">left</span> <span class="nt">top</span><span class="o">,</span> <span class="nt">left</span> <span class="nt">bottom</span><span class="o">,</span>
-</span><span class='line'><span class="nt">from</span><span class="o">(</span><span class="nt">rgba</span><span class="o">(</span><span class="nt">255</span><span class="o">,</span><span class="nt">131</span><span class="o">,</span><span class="nt">126</span><span class="o">,</span><span class="nt">1</span><span class="o">)),</span><span class="nt">to</span><span class="o">(</span><span class="nt">rgba</span><span class="o">(</span><span class="nt">255</span><span class="o">,</span><span class="nt">131</span><span class="o">,</span><span class="nt">126</span><span class="o">,</span><span class="nt">0</span><span class="o">)));</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<figure class='code'><figcaption><span>IE based</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class='css'><span class='line'><span class="nt">background</span><span class="nd">:transparent</span><span class="o">;</span>
-</span><span class='line'><span class="nt">filter</span><span class="o">:</span> <span class="nt">progid</span><span class="nd">:DXImageTransform</span><span class="nc">.Microsoft.gradient</span><span class="o">(</span><span class="nt">startColorstr</span><span class="o">=</span><span class="nf">#FFFF837E</span><span class="o">,</span> <span class="nt">endColorstr</span><span class="o">=</span><span class="nf">#00FF837E</span><span class="o">);</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<h3>References:</h3>
-
+<h3 id="references">References:</h3>
 <ol>
-<li>MSDN <a href="http://msdn.microsoft.com/en-us/library/ms532930.aspx">http://msdn.microsoft.com/en-us/library/ms532930.aspx</a></li>
-<li>Stackoverflow <a href="http://stackoverflow.com/questions/2293910/css3-transparency-gradient">http://stackoverflow.com/questions/2293910/css3-transparency-gradient</a></li>
-<li>CSS Tricks <a href="http://css-tricks.com/rgba-browser-support/">http://css-tricks.com/rgba-browser-support/</a></li>
+  <li>MSDN <a href="http://msdn.microsoft.com/en-us/library/ms532930.aspx">http://msdn.microsoft.com/en-us/library/ms532930.aspx</a></li>
+  <li>Stackoverflow <a href="http://stackoverflow.com/questions/2293910/css3-transparency-gradient">http://stackoverflow.com/questions/2293910/css3-transparency-gradient</a></li>
+  <li>CSS Tricks <a href="http://css-tricks.com/rgba-browser-support/">http://css-tricks.com/rgba-browser-support/</a></li>
 </ol>
-
 ]]></content>
   </entry>
   
@@ -73,11 +102,11 @@
     <id>http://tranquil-bastion-2708.herokuapp.com//blog/2011/05/11/data-engineering</id>
     <content type="html"><![CDATA[<p>Since the invention of computing devices, we have seen numerous data explosions. Reasons? Storage devices are getting cheaper but the storage ability is growing. It is now easier to share information especially through the cloud. Connectivity between human and non-human became more robust and sophisticated. Devices are made widely available. But there is a big problem here. Although we have expected the growth of data exponentially, but there are little ways developed for us to manage and fully make used of the data available for the greater benefit.</p>
 
-<p><img class="center" src="http://farm6.static.flickr.com/5023/5693449522_57353dd78a_o.png" width="1086" height="769" title="Bin Laden death diaspora by SocialFlow" >
-Bin Laden death diaspora by SocialFlow</p>
+<p><img class="center" src="http://farm6.static.flickr.com/5023/5693449522_57353dd78a_o.png" width="1086" height="769" title="Bin Laden death diaspora by SocialFlow" /></p>
 
-<h3>What is Data Engineering?</h3>
+<h6 id="bin-laden-death-diaspora-by-socialflow">Bin Laden Death Diaspora by SocialFlow</h6>
 
+<h3 id="what-is-data-engineering">What is Data Engineering?</h3>
 <p>We need people who are expert in managing the data. The experts may not be of computer science background because data engineering has been part of many profession. For example, statistician/mathematician often are good in explaining huge amount of data while neurologists have the knowledge on the data management inside our human brain. Their job scope should include more than choosing the right storage to preserve the data, system to organize the data, technology to retrieve the data. Data engineer need to churn out useful information from the data collection, explains the phenomenon and understand their nature. Data engineering will be the trend in the future while Computer Science will aid in providing tools to increase the performance of data engineer especially Machine Learning.</p>
 ]]></content>
   </entry>
@@ -87,7 +116,7 @@ Bin Laden death diaspora by SocialFlow</p>
     <link href="http://tranquil-bastion-2708.herokuapp.com//blog/2011/05/09/cuti-cuti-malaysia/"/>
     <updated>2011-05-09T00:00:00+08:00</updated>
     <id>http://tranquil-bastion-2708.herokuapp.com//blog/2011/05/09/cuti-cuti-malaysia</id>
-    <content type="html"><![CDATA[<p><img class="center" src="http://tranquil-bastion-2708.herokuapp.com//images/gallery/redang.jpg" width="480" height="270" title="Pulau Redang" >
+    <content type="html"><![CDATA[<p><img class="center" src="http://tranquil-bastion-2708.herokuapp.com//images/gallery/redang.jpg" width="480" height="270" title="Pulau Redang" />
 Can anyone identify where is this pretty beach?</p>
 ]]></content>
   </entry>
@@ -97,7 +126,7 @@ Can anyone identify where is this pretty beach?</p>
     <link href="http://tranquil-bastion-2708.herokuapp.com//blog/2011/04/25/crap-food/"/>
     <updated>2011-04-25T00:00:00+08:00</updated>
     <id>http://tranquil-bastion-2708.herokuapp.com//blog/2011/04/25/crap-food</id>
-    <content type="html"><![CDATA[<p><img class="center" src="http://tranquil-bastion-2708.herokuapp.com//images/gallery/crap_food.jpg" width="640" height="480" title="Huge Crap Seafood Restaurent" ></p>
+    <content type="html"><![CDATA[<p><img class="center" src="http://tranquil-bastion-2708.herokuapp.com//images/gallery/crap_food.jpg" width="640" height="480" title="Huge Crap Seafood Restaurent" /></p>
 ]]></content>
   </entry>
   
@@ -107,37 +136,30 @@ Can anyone identify where is this pretty beach?</p>
     <updated>2011-04-20T00:00:00+08:00</updated>
     <id>http://tranquil-bastion-2708.herokuapp.com//blog/2011/04/20/keeping-yourself-up-to-date</id>
     <content type="html"><![CDATA[<p>I always believe you need to keep yourself abreast with new technologies if your day in and day out activities have to do with computer. You cannot runaway from learning new stuffs everyday if you would like to maintain your competitive in your field. This applies especially to those who majored in computing field be it Computer Science or Information Technology. Self learning is the no. 1 skill needed followed by Googl-ing. If you resist to change, you might be the next dinosaur waiting to be replaced.
-Luckily, by taking advantage of the Internet, the people who work side by side with computers are able to keep themselves updated by using the tools online.</p>
-
-<h2>Social Media</h2>
-
-<ul>
-<li>Have a Twitter account and subscribe to tech news such as @mashable, @engadget &#8230;</li>
-<li>Official company Twitter like @microsoft, @google will twit about their product improvements and whats new.
+Luckily, by taking advantage of the Internet, the people who work side by side with computers are able to keep themselves updated by using the tools online.
+## Social Media
+- Have a Twitter account and subscribe to tech news such as @mashable, @engadget …
+- Official company Twitter like @microsoft, @google will twit about their product improvements and whats new.
 Famous people like @kevinrose, @jeresig might provide insights on latest / future interesting tech
+## News
+- Use feedreader like Google Reader to subscribe to the latest tech news and blogs for upcoming news through feed like Gizmodo, BGR
+- Join HN (http://news.ycombinator.com) where bleeding edge tech news are shared
+- Sites like Reddit and Digg has some tech categories in it. Be sure to check it out.
+- Newspaper (and any media linked to conventional newspaper agencies) are outdated can be completely waste of time.
+## QA Knowledge Market
+- Having doubts on something you barely know? Ask in Quora or Stackexchange. The people there are extremely helpful.
+- Stackexchange has several different sites serving different needs. Go to Stackoverflow for more in-depth computing coverage.
+## Podcast / Videocast
+- Constantly checkout the podcast and videocast for new techniques (covering how to program..)
+- Youtube and Vimeo serve a lot of video. Search and subscribe.
+- TED.com is another source of interesting lecture on brilliant ideas.
+## Honorable Mentions
+- Facebook pages too serve some interesting information.
+- For anything else, there is always our mighty Wikipedia.</p>
 
-<h2>News</h2></li>
-<li>Use feedreader like Google Reader to subscribe to the latest tech news and blogs for upcoming news through feed like Gizmodo, BGR</li>
-<li>Join HN (http://news.ycombinator.com) where bleeding edge tech news are shared</li>
-<li>Sites like Reddit and Digg has some tech categories in it. Be sure to check it out.</li>
-<li>Newspaper (and any media linked to conventional newspaper agencies) are outdated can be completely waste of time.
-
-<h2>QA Knowledge Market</h2></li>
-<li>Having doubts on something you barely know? Ask in Quora or Stackexchange. The people there are extremely helpful.</li>
-<li>Stackexchange has several different sites serving different needs. Go to Stackoverflow for more in-depth computing coverage.
-
-<h2>Podcast / Videocast</h2></li>
-<li>Constantly checkout the podcast and videocast for new techniques (covering how to program..)</li>
-<li>Youtube and Vimeo serve a lot of video. Search and subscribe.</li>
-<li>TED.com is another source of interesting lecture on brilliant ideas.
-
-<h2>Honorable Mentions</h2></li>
-<li>Facebook pages too serve some interesting information.</li>
-<li>For anything else, there is always our mighty Wikipedia.</li>
-</ul>
-
-
-<blockquote><p>Be sure to keep yourself up to date, what you did in campus is the past.</p></blockquote>
+<blockquote>
+  <p>Be sure to keep yourself up to date, what you did in campus is the past.</p>
+</blockquote>
 ]]></content>
   </entry>
   
@@ -146,7 +168,7 @@ Famous people like @kevinrose, @jeresig might provide insights on latest / futur
     <link href="http://tranquil-bastion-2708.herokuapp.com//blog/2011/04/18/b417/"/>
     <updated>2011-04-18T00:00:00+08:00</updated>
     <id>http://tranquil-bastion-2708.herokuapp.com//blog/2011/04/18/b417</id>
-    <content type="html"><![CDATA[<p><img class="center" src="http://tranquil-bastion-2708.herokuapp.com//images/gallery/b417.jpg" width="640" height="480" title="PRSB B417" ></p>
+    <content type="html"><![CDATA[<p><img class="center" src="http://tranquil-bastion-2708.herokuapp.com//images/gallery/b417.jpg" width="640" height="480" title="PRSB B417" /></p>
 ]]></content>
   </entry>
   
@@ -155,7 +177,7 @@ Famous people like @kevinrose, @jeresig might provide insights on latest / futur
     <link href="http://tranquil-bastion-2708.herokuapp.com//blog/2011/04/14/ikea/"/>
     <updated>2011-04-14T00:00:00+08:00</updated>
     <id>http://tranquil-bastion-2708.herokuapp.com//blog/2011/04/14/ikea</id>
-    <content type="html"><![CDATA[<p><img class="center" src="http://tranquil-bastion-2708.herokuapp.com//images/gallery/ikea.jpg" width="640" height="480" title="Ikea" ></p>
+    <content type="html"><![CDATA[<p><img class="center" src="http://tranquil-bastion-2708.herokuapp.com//images/gallery/ikea.jpg" width="640" height="480" title="Ikea" /></p>
 ]]></content>
   </entry>
   

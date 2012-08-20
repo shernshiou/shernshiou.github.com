@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Keeping yourself up to date - Shern Shiou</title>
+  <title>Information Theory on Images - Shern Shiou</title>
   <meta name="author" content="shernshiou">
 
   
-  <meta name="description" content="I always believe you need to keep yourself abreast with new technologies if your day in and day out activities have to do with computer. You cannot &hellip;">
+  <meta name="description" content="In the past, I have always encountered these questions while doing my research. To truly emulate human vision perception in computer vision, I need &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://tranquil-bastion-2708.herokuapp.com//blog/2011/04/20/keeping-yourself-up-to-date/">
+  <link rel="canonical" href="http://tranquil-bastion-2708.herokuapp.com//blog/2011/05/26/information-theory-on-images/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -95,7 +95,7 @@ MathJax.Hub.Config({
   
   <header>
     
-      <h1 class="entry-title">Keeping Yourself Up to Date</h1>
+      <h1 class="entry-title">Information Theory on Images</h1>
     
     
       <p class="meta">
@@ -111,38 +111,46 @@ MathJax.Hub.Config({
   
 
 
-<time datetime="2011-04-20T00:00:00+08:00" pubdate data-updated="true">Apr 20<span>th</span>, 2011</time>
+<time datetime="2011-05-26T00:00:00+08:00" pubdate data-updated="true">May 26<span>th</span>, 2011</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>I always believe you need to keep yourself abreast with new technologies if your day in and day out activities have to do with computer. You cannot runaway from learning new stuffs everyday if you would like to maintain your competitive in your field. This applies especially to those who majored in computing field be it Computer Science or Information Technology. Self learning is the no. 1 skill needed followed by Googl-ing. If you resist to change, you might be the next dinosaur waiting to be replaced.
-Luckily, by taking advantage of the Internet, the people who work side by side with computers are able to keep themselves updated by using the tools online.
-## Social Media
-- Have a Twitter account and subscribe to tech news such as @mashable, @engadget …
-- Official company Twitter like @microsoft, @google will twit about their product improvements and whats new.
-Famous people like @kevinrose, @jeresig might provide insights on latest / future interesting tech
-## News
-- Use feedreader like Google Reader to subscribe to the latest tech news and blogs for upcoming news through feed like Gizmodo, BGR
-- Join HN (http://news.ycombinator.com) where bleeding edge tech news are shared
-- Sites like Reddit and Digg has some tech categories in it. Be sure to check it out.
-- Newspaper (and any media linked to conventional newspaper agencies) are outdated can be completely waste of time.
-## QA Knowledge Market
-- Having doubts on something you barely know? Ask in Quora or Stackexchange. The people there are extremely helpful.
-- Stackexchange has several different sites serving different needs. Go to Stackoverflow for more in-depth computing coverage.
-## Podcast / Videocast
-- Constantly checkout the podcast and videocast for new techniques (covering how to program..)
-- Youtube and Vimeo serve a lot of video. Search and subscribe.
-- TED.com is another source of interesting lecture on brilliant ideas.
-## Honorable Mentions
-- Facebook pages too serve some interesting information.
-- For anything else, there is always our mighty Wikipedia.</p>
+<div class="entry-content"><p>In the past, I have always encountered these questions while doing my research. To truly emulate human vision perception in computer vision, I need to understand how the mechanism works. These questions form the fundamental mechanism of human vision. Therefore, I decided to compute several images to proof my believe. My main hypothesis is human vision is represented in HSV colour model rather than RGB colour model. To proof this, I will be using basic Information Theory to compute the information composition in an single image both RGB and HSV.</p>
 
-<blockquote>
-  <p>Be sure to keep yourself up to date, what you did in campus is the past.</p>
-</blockquote>
+<h3 id="information-theory">Information Theory</h3>
+
+<script type="math/tex; mode=display">
+\begin{equation} H(X) = -\sum_{x \in \mathcal{X}} p(x) \log_b p(x). \end{equation}
+</script>
+
+<h6 id="shannons-entropy-equation">Shannon’s Entropy Equation</h6>
+
+<p>The basic Shannon Entropy will be used to compute each individual plane in an image. This entropy is used to measure the unpredictability. The easier to predict, the lower the entropy it has. In this case, I also made an assumption that entropy directly relate to the information contained / encoded within. If you need detail description on Shannon Entropy, head over to <a href="http://en.wikipedia.org/wiki/Entropy_(information_theory)">http://en.wikipedia.org/wiki/Entropy_(information_theory)</a> which contains fairly understandable explanation.</p>
+
+<h3 id="methods">Methods</h3>
+<p>A set of 20 various images from grayscale to single colour, from human and non-human images are collected. Entropy will be computed on grayscale mode, Red plane, Blue plane, Green plane as well as Hue plane, Saturation plane and Intensity.</p>
+
+<h3 id="results-and-explanation">Results and Explanation</h3>
+<p><img class="center" src="/images/gallery/entropy_result.png" width="483" height="431" title="Result Table" />
+As expected RGB plane has pretty similar entropy in every images. If one of the plane has low entropy, both the plane will follow including the grayscale version of the image. On the other hand, HSV has a pretty interesting results. Averagely, Intensity plane has higher entropy than the other Hue and Saturation. In the event of grayscale image (note Image 17 and 18), Intensity contain entropy but not the other two.</p>
+
+<h3 id="conclusion">Conclusion</h3>
+<ol>
+  <li>Intensity planes contain more information. Therefore, we are able to perceive an image from only the intensity plane.</li>
+  <li>Single colour image does has information but when converted to HSV plane, it represents 0 entropy in every plane.</li>
+  <li>Human vision is closer to HSV than RGB. Notes: Cone cell in retina</li>
+</ol>
+
+<h3 id="references">References</h3>
+<ol>
+  <li>Wikipedia on Shannon Entropy <a href="http://en.wikipedia.org/wiki/Entropy_(information_theory)">http://en.wikipedia.org/wiki/Entropy_(information_theory)</a></li>
+  <li>Beginner explanation of how entropy is applied in classification <a href="http://stackoverflow.com/questions/1859554/what-is-entropy-and-information-gain">http://stackoverflow.com/questions/1859554/what-is-entropy-and-information-gain</a></li>
+  <li>Kodak Lossless Image Suite used in Sample Images <a href="http://r0k.us/graphics/kodak/">http://r0k.us/graphics/kodak/</a></li>
+</ol>
+
 </div>
 
 
@@ -165,21 +173,15 @@ Famous people like @kevinrose, @jeresig might provide insights on latest / futur
   
 
 
-<time datetime="2011-04-20T00:00:00+08:00" pubdate data-updated="true">Apr 20<span>th</span>, 2011</time>
+<time datetime="2011-05-26T00:00:00+08:00" pubdate data-updated="true">May 26<span>th</span>, 2011</time>
       
-
-<span class="categories">
-  
-    <a class='category' href='/blog/categories/tech/'>Tech</a>, <a class='category' href='/blog/categories/thought/'>Thought</a>
-  
-</span>
 
 
     </p>
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://tranquil-bastion-2708.herokuapp.com//blog/2011/04/20/keeping-yourself-up-to-date/" data-via="shernshiou" data-counturl="http://tranquil-bastion-2708.herokuapp.com//blog/2011/04/20/keeping-yourself-up-to-date/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://tranquil-bastion-2708.herokuapp.com//blog/2011/05/26/information-theory-on-images/" data-via="shernshiou" data-counturl="http://tranquil-bastion-2708.herokuapp.com//blog/2011/05/26/information-theory-on-images/" >Tweet</a>
   
   
   
@@ -188,10 +190,8 @@ Famous people like @kevinrose, @jeresig might provide insights on latest / futur
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2011/04/18/b417/" title="Previous Post: B417">&laquo; B417</a>
+        <a class="basic-alignment left" href="/blog/2011/05/16/css3-gradient-and-transparency/" title="Previous Post: CSS3 Gradient and Transparency">&laquo; CSS3 Gradient and Transparency</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2011/04/25/crap-food/" title="Next Post: Crap Food">Crap Food &raquo;</a>
       
     </p>
   </footer>

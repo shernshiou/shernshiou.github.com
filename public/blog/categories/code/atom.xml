@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Code | Shern Shiou]]></title>
   <link href="http://tranquil-bastion-2708.herokuapp.com//blog/categories/code/atom.xml" rel="self"/>
   <link href="http://tranquil-bastion-2708.herokuapp.com//"/>
-  <updated>2012-08-20T19:20:07+08:00</updated>
+  <updated>2012-08-20T20:14:04+08:00</updated>
   <id>http://tranquil-bastion-2708.herokuapp.com//</id>
   <author>
     <name><![CDATA[shernshiou]]></name>
@@ -20,8 +20,7 @@
     <id>http://tranquil-bastion-2708.herokuapp.com//blog/2011/05/16/css3-gradient-and-transparency</id>
     <content type="html"><![CDATA[<p>Due to inconsistency of CSS3 implementation across different web browser, I wish to leave some note on Gradient and Transparency.</p>
 
-<h4>Transparency</h4>
-
+<h4 id="transparency">Transparency</h4>
 <p><code>css Mozilla and Webkit based
 background: rgba(0,0,0,0.3);
 </code>
@@ -30,13 +29,12 @@ background:transparent;
 filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#50000000,endColorstr=#50000000);
 </code></p>
 
-<h4>Gradient</h4>
-
+<h4 id="gradient">Gradient</h4>
 <p><code>css Mozilla based
 background: -moz-linear-gradient(rgba(255,131,126,1) 0%, (255,131,126,0) 95%;
 </code>
 <code>css Webkit based
-background: -webkit-gradient(linear, left top, left bottom,
+background: -webkit-gradient(linear, left top, left bottom, 
 from(rgba(255,131,126,1)),to(rgba(255,131,126,0)));
 </code>
 <code>css IE based
@@ -44,14 +42,12 @@ background:transparent;
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFF837E, endColorstr=#00FF837E);
 </code></p>
 
-<h3>References:</h3>
-
+<h3 id="references">References:</h3>
 <ol>
-<li>MSDN <a href="http://msdn.microsoft.com/en-us/library/ms532930.aspx">http://msdn.microsoft.com/en-us/library/ms532930.aspx</a></li>
-<li>Stackoverflow <a href="http://stackoverflow.com/questions/2293910/css3-transparency-gradient">http://stackoverflow.com/questions/2293910/css3-transparency-gradient</a></li>
-<li>CSS Tricks <a href="http://css-tricks.com/rgba-browser-support/">http://css-tricks.com/rgba-browser-support/</a></li>
+  <li>MSDN <a href="http://msdn.microsoft.com/en-us/library/ms532930.aspx">http://msdn.microsoft.com/en-us/library/ms532930.aspx</a></li>
+  <li>Stackoverflow <a href="http://stackoverflow.com/questions/2293910/css3-transparency-gradient">http://stackoverflow.com/questions/2293910/css3-transparency-gradient</a></li>
+  <li>CSS Tricks <a href="http://css-tricks.com/rgba-browser-support/">http://css-tricks.com/rgba-browser-support/</a></li>
 </ol>
-
 ]]></content>
   </entry>
   
