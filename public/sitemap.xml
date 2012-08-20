@@ -69,12 +69,18 @@
         <lastmod>2012-08-21T00:44:11+08:00</lastmod>
     </url>
     <url>
+        <loc>
+            http://tranquil-bastion-2708.herokuapp.com//blog/2011/07/21/how-i-became-a-programmer/
+        </loc>
+        <lastmod>2012-08-21T00:53:09+08:00</lastmod>
+    </url>
+    <url>
         <loc>http://tranquil-bastion-2708.herokuapp.com//blog/archives/</loc>
-        <lastmod>2012-08-21T00:44:11+08:00</lastmod>
+        <lastmod>2012-08-21T00:53:09+08:00</lastmod>
     </url>
     <url>
         <loc>http://tranquil-bastion-2708.herokuapp.com//</loc>
-        <lastmod>2012-08-21T00:44:11+08:00</lastmod>
+        <lastmod>2012-08-21T00:53:09+08:00</lastmod>
     </url>
     <url>
         <loc>http://tranquil-bastion-2708.herokuapp.com//who-am-i/</loc>

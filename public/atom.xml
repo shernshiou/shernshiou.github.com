@@ -4,7 +4,7 @@
   <title><![CDATA[Shern Shiou]]></title>
   <link href="http://tranquil-bastion-2708.herokuapp.com//atom.xml" rel="self"/>
   <link href="http://tranquil-bastion-2708.herokuapp.com//"/>
-  <updated>2012-08-21T00:44:42+08:00</updated>
+  <updated>2012-08-21T00:53:24+08:00</updated>
   <id>http://tranquil-bastion-2708.herokuapp.com//</id>
   <author>
     <name><![CDATA[shernshiou]]></name>
@@ -12,6 +12,37 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[How I Became A Programmer?]]></title>
+    <link href="http://tranquil-bastion-2708.herokuapp.com//blog/2011/07/21/how-i-became-a-programmer/"/>
+    <updated>2011-07-21T00:00:00+08:00</updated>
+    <id>http://tranquil-bastion-2708.herokuapp.com//blog/2011/07/21/how-i-became-a-programmer</id>
+    <content type="html"><![CDATA[<p>I learnt programming even before I receive my former education in primary school. Even though I did not learn to create a full blown application, but it did teach me problem solving, flowchart and logic programming.</p>
+
+<h3 id="the-turtle">The Turtle</h3>
+<p>My first programming language is Logo (Wiki). Logo is console consist of a turtle that draws according to the command given. We can draw anything using command like Pen off, pen on, turn right, turn left… </p>
+
+<h3 id="my-first-hello-world">My First “Hello World”</h3>
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span>It drew a square box.</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+<span class="line-number">7</span>
+<span class="line-number">8</span>
+</pre></td><td class="code"><pre><code class="common-lisp"><span class="line"><span class="nv">FORWARD</span> <span class="mi">100</span>
+</span><span class="line"><span class="nv">LEFT</span> <span class="mi">90</span>
+</span><span class="line"><span class="nv">FORWARD</span> <span class="mi">100</span>
+</span><span class="line"><span class="nv">LEFT</span> <span class="mi">90</span>
+</span><span class="line"><span class="nv">FORWARD</span> <span class="mi">100</span>
+</span><span class="line"><span class="nv">LEFT</span> <span class="mi">90</span>
+</span><span class="line"><span class="nv">FORWARD</span> <span class="mi">100</span>
+</span><span class="line"><span class="nv">LEFT</span> <span class="mi">90</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Teka Teki]]></title>
