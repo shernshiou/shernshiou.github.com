@@ -4,7 +4,7 @@
   <title><![CDATA[Shern Shiou]]></title>
   <link href="http://tranquil-bastion-2708.herokuapp.com//atom.xml" rel="self"/>
   <link href="http://tranquil-bastion-2708.herokuapp.com//"/>
-  <updated>2012-08-21T00:53:24+08:00</updated>
+  <updated>2012-08-21T01:00:08+08:00</updated>
   <id>http://tranquil-bastion-2708.herokuapp.com//</id>
   <author>
     <name><![CDATA[shernshiou]]></name>
@@ -12,6 +12,29 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[QString to Char*]]></title>
+    <link href="http://tranquil-bastion-2708.herokuapp.com//blog/2011/10/13/qstring-to-char-star/"/>
+    <updated>2011-10-13T00:00:00+08:00</updated>
+    <id>http://tranquil-bastion-2708.herokuapp.com//blog/2011/10/13/qstring-to-char-star</id>
+    <content type="html"><![CDATA[<p>Thanks to <a href="http://developer.qt.nokia.com/faq/answer/how_can_i_convert_a_qstring_to_char_and_vice_versa">Qt Forum</a></p>
+
+<p>Below help us to get Char* out from QString and the other way around:</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span>Convert QString to Char*</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+</pre></td><td class="code"><pre><code class="c++"><span class="line"><span class="n">QString</span> <span class="n">inputString</span> <span class="o">=</span> <span class="s">&quot;hello&quot;</span><span class="p">;</span>
+</span><span class="line"><span class="n">QByteArray</span> <span class="n">byteArray</span> <span class="o">=</span> <span class="n">inputString</span><span class="p">.</span><span class="n">toUtf8</span><span class="p">();</span>
+</span><span class="line"><span class="k">const</span> <span class="kt">char</span><span class="o">*</span> <span class="n">cString</span> <span class="o">=</span> <span class="n">byteArray</span><span class="p">.</span><span class="n">constData</span><span class="p">();</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span>Convert Char* to QString</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class="c++"><span class="line"><span class="n">QString</span> <span class="n">qString2</span> <span class="o">=</span> <span class="n">QString</span><span class="o">::</span><span class="n">fromUtf8</span><span class="p">(</span><span class="n">cString</span><span class="p">);</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[How I Became A Programmer?]]></title>

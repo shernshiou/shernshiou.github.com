@@ -9,7 +9,10 @@
   <meta name="author" content="shernshiou">
 
   
-  <meta name="description" content="I learnt programming even before I receive my former education in primary school. Even though I did not learn to create a full blown application, but &hellip;">
+  <meta name="description" content="Thanks to Qt Forum Below help us to get Char* out from QString and the other way around: Convert QString to Char*1
+2
+3
+QString inputString = &quot; &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -92,6 +95,56 @@ MathJax.Hub.Config({
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2011/10/13/qstring-to-char-star/">QString to Char*</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-10-13T00:00:00+08:00" pubdate data-updated="true">Oct 13<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Thanks to <a href="http://developer.qt.nokia.com/faq/answer/how_can_i_convert_a_qstring_to_char_and_vice_versa">Qt Forum</a></p>
+
+<p>Below help us to get Char* out from QString and the other way around:</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span>Convert QString to Char*</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+</pre></td><td class="code"><pre><code class="c++"><span class="line"><span class="n">QString</span> <span class="n">inputString</span> <span class="o">=</span> <span class="s">&quot;hello&quot;</span><span class="p">;</span>
+</span><span class="line"><span class="n">QByteArray</span> <span class="n">byteArray</span> <span class="o">=</span> <span class="n">inputString</span><span class="p">.</span><span class="n">toUtf8</span><span class="p">();</span>
+</span><span class="line"><span class="k">const</span> <span class="kt">char</span><span class="o">*</span> <span class="n">cString</span> <span class="o">=</span> <span class="n">byteArray</span><span class="p">.</span><span class="n">constData</span><span class="p">();</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span>Convert Char* to QString</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class="c++"><span class="line"><span class="n">QString</span> <span class="n">qString2</span> <span class="o">=</span> <span class="n">QString</span><span class="o">::</span><span class="n">fromUtf8</span><span class="p">(</span><span class="n">cString</span><span class="p">);</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -564,49 +617,6 @@ As expected RGB plane has pretty similar entropy in every images. If one of the 
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2011/05/11/data-engineering/">Data Engineering</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-05-11T00:00:00+08:00" pubdate data-updated="true">May 11<span>th</span>, 2011</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Since the invention of computing devices, we have seen numerous data explosions. Reasons? Storage devices are getting cheaper but the storage ability is growing. It is now easier to share information especially through the cloud. Connectivity between human and non-human became more robust and sophisticated. Devices are made widely available. But there is a big problem here. Although we have expected the growth of data exponentially, but there are little ways developed for us to manage and fully make used of the data available for the greater benefit.</p>
-
-<p><img class="center" src="http://farm6.static.flickr.com/5023/5693449522_57353dd78a_o.png" width="1086" height="769" title="Bin Laden death diaspora by SocialFlow" /></p>
-
-<h6 id="bin-laden-death-diaspora-by-socialflow">Bin Laden Death Diaspora by SocialFlow</h6>
-
-<h3 id="what-is-data-engineering">What is Data Engineering?</h3>
-<p>We need people who are expert in managing the data. The experts may not be of computer science background because data engineering has been part of many profession. For example, statistician/mathematician often are good in explaining huge amount of data while neurologists have the knowledge on the data management inside our human brain. Their job scope should include more than choosing the right storage to preserve the data, system to organize the data, technology to retrieve the data. Data engineer need to churn out useful information from the data collection, explains the phenomenon and understand their nature. Data engineering will be the trend in the future while Computer Science will aid in providing tools to increase the performance of data engineer especially Machine Learning.</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/2/">&larr; Older</a>
@@ -622,6 +632,10 @@ As expected RGB plane has pretty similar entropy in every images. If one of the 
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2011/10/13/qstring-to-char-star/">QString to Char*</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2011/07/21/how-i-became-a-programmer/">How I Became A Programmer?</a>
       </li>
     
@@ -635,10 +649,6 @@ As expected RGB plane has pretty similar entropy in every images. If one of the 
     
       <li class="post">
         <a href="/blog/2011/07/01/pilihan-raya-ke/">Pilihan Raya ke?</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2011/06/23/installing-boost/">Installing Boost</a>
       </li>
     
   </ul>

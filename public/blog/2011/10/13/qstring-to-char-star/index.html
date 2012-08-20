@@ -5,11 +5,14 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Level of Desperation - Shern Shiou</title>
+  <title>QString to Char* - Shern Shiou</title>
   <meta name="author" content="shernshiou">
 
   
-  <meta name="description" content="Level 1: You miss that thing. Level 2: You think of it everyday. Level 3: You are finding something to replace it. Level 4: You try to convince &hellip;">
+  <meta name="description" content="Thanks to Qt Forum Below help us to get Char* out from QString and the other way around: Convert QString to Char*1
+2
+3
+QString inputString = &quot; &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +21,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://tranquil-bastion-2708.herokuapp.com//blog/2011/06/08/level-of-desperation/">
+  <link rel="canonical" href="http://tranquil-bastion-2708.herokuapp.com//blog/2011/10/13/qstring-to-char-star/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -95,7 +98,7 @@ MathJax.Hub.Config({
   
   <header>
     
-      <h1 class="entry-title">Level of Desperation</h1>
+      <h1 class="entry-title">QString to Char*</h1>
     
     
       <p class="meta">
@@ -111,28 +114,28 @@ MathJax.Hub.Config({
   
 
 
-<time datetime="2011-06-08T00:00:00+08:00" pubdate data-updated="true">Jun 8<span>th</span>, 2011</time>
+<time datetime="2011-10-13T00:00:00+08:00" pubdate data-updated="true">Oct 13<span>th</span>, 2011</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>Level 1: You miss that thing.</p>
+<div class="entry-content"><p>Thanks to <a href="http://developer.qt.nokia.com/faq/answer/how_can_i_convert_a_qstring_to_char_and_vice_versa">Qt Forum</a></p>
 
-<p>Level 2: You think of it everyday.</p>
+<p>Below help us to get Char* out from QString and the other way around:</p>
 
-<p>Level 3: You are finding something to replace it.</p>
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span>Convert QString to Char*</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+</pre></td><td class="code"><pre><code class="c++"><span class="line"><span class="n">QString</span> <span class="n">inputString</span> <span class="o">=</span> <span class="s">&quot;hello&quot;</span><span class="p">;</span>
+</span><span class="line"><span class="n">QByteArray</span> <span class="n">byteArray</span> <span class="o">=</span> <span class="n">inputString</span><span class="p">.</span><span class="n">toUtf8</span><span class="p">();</span>
+</span><span class="line"><span class="k">const</span> <span class="kt">char</span><span class="o">*</span> <span class="n">cString</span> <span class="o">=</span> <span class="n">byteArray</span><span class="p">.</span><span class="n">constData</span><span class="p">();</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
 
-<p>Level 4: You try to convince yourself that you have it.</p>
-
-<p>Level 5: You hypnotized yourself that you are having it.. but your heart has given up.</p>
-
-<p>Level 6: You already found a replacement for it.</p>
-
-<blockquote>
-  <p>p/s: Sorry I do not have a Richter Scale for it.</p>
-</blockquote>
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span>Convert Char* to QString</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class="c++"><span class="line"><span class="n">QString</span> <span class="n">qString2</span> <span class="o">=</span> <span class="n">QString</span><span class="o">::</span><span class="n">fromUtf8</span><span class="p">(</span><span class="n">cString</span><span class="p">);</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
 </div>
 
 
@@ -155,12 +158,12 @@ MathJax.Hub.Config({
   
 
 
-<time datetime="2011-06-08T00:00:00+08:00" pubdate data-updated="true">Jun 8<span>th</span>, 2011</time>
+<time datetime="2011-10-13T00:00:00+08:00" pubdate data-updated="true">Oct 13<span>th</span>, 2011</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/joke/'>Joke</a>
+    <a class='category' href='/blog/categories/app/'>App</a>, <a class='category' href='/blog/categories/code/'>Code</a>
   
 </span>
 
@@ -169,7 +172,7 @@ MathJax.Hub.Config({
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://tranquil-bastion-2708.herokuapp.com//blog/2011/06/08/level-of-desperation/" data-via="shernshiou" data-counturl="http://tranquil-bastion-2708.herokuapp.com//blog/2011/06/08/level-of-desperation/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://tranquil-bastion-2708.herokuapp.com//blog/2011/10/13/qstring-to-char-star/" data-via="shernshiou" data-counturl="http://tranquil-bastion-2708.herokuapp.com//blog/2011/10/13/qstring-to-char-star/" >Tweet</a>
   
   
   
@@ -178,10 +181,8 @@ MathJax.Hub.Config({
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2011/05/26/information-theory-on-images/" title="Previous Post: Information Theory on Images">&laquo; Information Theory on Images</a>
+        <a class="basic-alignment left" href="/blog/2011/07/21/how-i-became-a-programmer/" title="Previous Post: How I Became A Programmer?">&laquo; How I Became A Programmer?</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2011/06/21/check-duplicate-in-mysql/" title="Next Post: Check Duplicate in MySQL">Check Duplicate in MySQL &raquo;</a>
       
     </p>
   </footer>
