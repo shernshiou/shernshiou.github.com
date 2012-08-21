@@ -4,7 +4,7 @@
   <title><![CDATA[Shern Shiou]]></title>
   <link href="http://tranquil-bastion-2708.herokuapp.com//atom.xml" rel="self"/>
   <link href="http://tranquil-bastion-2708.herokuapp.com//"/>
-  <updated>2012-08-21T11:27:36+08:00</updated>
+  <updated>2012-08-21T11:32:57+08:00</updated>
   <id>http://tranquil-bastion-2708.herokuapp.com//</id>
   <author>
     <name><![CDATA[shernshiou]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Population Growth]]></title>
+    <link href="http://tranquil-bastion-2708.herokuapp.com//blog/2012/05/08/population-growth/"/>
+    <updated>2012-05-08T00:00:00+08:00</updated>
+    <id>http://tranquil-bastion-2708.herokuapp.com//blog/2012/05/08/population-growth</id>
+    <content type="html"><![CDATA[<p>Human must be the favourite creation from the Nature. We are not only blessed with the power to think and comprehend but also very much suitable for the current situation. Human population grows tremendously in recent centuries especially after World War II (refer to  <a href="http://en.wikipedia.org/wiki/Population_growth">http://en.wikipedia.org/wiki/Population_growth</a>). Referring to the graph <a href="http://www.google.com/publicdata/explore?ds=d5bncppjof8f9_&amp;ctype=l&amp;strail=false&amp;bcs=d&amp;nselm=h&amp;met_y=sp_pop_totl&amp;scale_y=lin&amp;ind_y=false&amp;rdim=region&amp;ifdim=region&amp;tdim=true&amp;tstart=-304588800000&amp;tend=1304784000000&amp;hl=en_US&amp;dl=en&amp;ind=false&amp;q=world+data+population">here</a>, our population actually doubled from 1960s until now.</p>
+
+<p>Once people thought we might experienced serious food crisis that will prevent the human to expand further however with the technology, we are able to produce food better for most of the people here (2 out of 7 billion people here still experiencing food security). </p>
+
+<p>Can we keep populating the world more if we keep living longer, consuming the food and energy? There are signs we might hit the limit soon. With the growing competitiveness, some developed countries are experiencing lower birth rate. </p>
+
+<p>I think we human are the greedy bunch. The mother earth has loved us so much, why are we keep taxing her? One day, the power of nature will strike us. :(</p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Here Comes A New Challenger!]]></title>
@@ -381,22 +397,6 @@ As expected RGB plane has pretty similar entropy in every images. If one of the 
   <li>Stackoverflow <a href="http://stackoverflow.com/questions/2293910/css3-transparency-gradient">http://stackoverflow.com/questions/2293910/css3-transparency-gradient</a></li>
   <li>CSS Tricks <a href="http://css-tricks.com/rgba-browser-support/">http://css-tricks.com/rgba-browser-support/</a></li>
 </ol>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Data Engineering]]></title>
-    <link href="http://tranquil-bastion-2708.herokuapp.com//blog/2011/05/11/data-engineering/"/>
-    <updated>2011-05-11T00:00:00+08:00</updated>
-    <id>http://tranquil-bastion-2708.herokuapp.com//blog/2011/05/11/data-engineering</id>
-    <content type="html"><![CDATA[<p>Since the invention of computing devices, we have seen numerous data explosions. Reasons? Storage devices are getting cheaper but the storage ability is growing. It is now easier to share information especially through the cloud. Connectivity between human and non-human became more robust and sophisticated. Devices are made widely available. But there is a big problem here. Although we have expected the growth of data exponentially, but there are little ways developed for us to manage and fully make used of the data available for the greater benefit.</p>
-
-<p><img class="center" src="http://farm6.static.flickr.com/5023/5693449522_57353dd78a_o.png" width="1086" height="769" title="Bin Laden death diaspora by SocialFlow" /></p>
-
-<h6 id="bin-laden-death-diaspora-by-socialflow">Bin Laden Death Diaspora by SocialFlow</h6>
-
-<h3 id="what-is-data-engineering">What is Data Engineering?</h3>
-<p>We need people who are expert in managing the data. The experts may not be of computer science background because data engineering has been part of many profession. For example, statistician/mathematician often are good in explaining huge amount of data while neurologists have the knowledge on the data management inside our human brain. Their job scope should include more than choosing the right storage to preserve the data, system to organize the data, technology to retrieve the data. Data engineer need to churn out useful information from the data collection, explains the phenomenon and understand their nature. Data engineering will be the trend in the future while Computer Science will aid in providing tools to increase the performance of data engineer especially Machine Learning.</p>
 ]]></content>
   </entry>
   

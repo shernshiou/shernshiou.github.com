@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Thought | Shern Shiou]]></title>
   <link href="http://tranquil-bastion-2708.herokuapp.com//blog/categories/thought/atom.xml" rel="self"/>
   <link href="http://tranquil-bastion-2708.herokuapp.com//"/>
-  <updated>2012-08-21T11:27:36+08:00</updated>
+  <updated>2012-08-21T11:32:57+08:00</updated>
   <id>http://tranquil-bastion-2708.herokuapp.com//</id>
   <author>
     <name><![CDATA[shernshiou]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Population Growth]]></title>
+    <link href="http://tranquil-bastion-2708.herokuapp.com//blog/2012/05/08/population-growth/"/>
+    <updated>2012-05-08T00:00:00+08:00</updated>
+    <id>http://tranquil-bastion-2708.herokuapp.com//blog/2012/05/08/population-growth</id>
+    <content type="html"><![CDATA[<p>Human must be the favourite creation from the Nature. We are not only blessed with the power to think and comprehend but also very much suitable for the current situation. Human population grows tremendously in recent centuries especially after World War II (refer to  <a href="http://en.wikipedia.org/wiki/Population_growth">http://en.wikipedia.org/wiki/Population_growth</a>). Referring to the graph <a href="http://www.google.com/publicdata/explore?ds=d5bncppjof8f9_&amp;ctype=l&amp;strail=false&amp;bcs=d&amp;nselm=h&amp;met_y=sp_pop_totl&amp;scale_y=lin&amp;ind_y=false&amp;rdim=region&amp;ifdim=region&amp;tdim=true&amp;tstart=-304588800000&amp;tend=1304784000000&amp;hl=en_US&amp;dl=en&amp;ind=false&amp;q=world+data+population">here</a>, our population actually doubled from 1960s until now.</p>
+
+<p>Once people thought we might experienced serious food crisis that will prevent the human to expand further however with the technology, we are able to produce food better for most of the people here (2 out of 7 billion people here still experiencing food security). </p>
+
+<p>Can we keep populating the world more if we keep living longer, consuming the food and energy? There are signs we might hit the limit soon. With the growing competitiveness, some developed countries are experiencing lower birth rate. </p>
+
+<p>I think we human are the greedy bunch. The mother earth has loved us so much, why are we keep taxing her? One day, the power of nature will strike us. :(</p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Religion and God]]></title>
@@ -57,30 +73,6 @@ Back home, I cook my own dinner.<br />
 Attend online lecture after that or continue on my journal paper.<br />
 Before I sleep, I read a few chapters.<br />
 I got to do what I like every seconds. </p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[How I Became A Programmer?]]></title>
-    <link href="http://tranquil-bastion-2708.herokuapp.com//blog/2011/07/21/how-i-became-a-programmer/"/>
-    <updated>2011-07-21T00:00:00+08:00</updated>
-    <id>http://tranquil-bastion-2708.herokuapp.com//blog/2011/07/21/how-i-became-a-programmer</id>
-    <content type="html"><![CDATA[<p>I learnt programming even before I receive my former education in primary school. Even though I did not learn to create a full blown application, but it did teach me problem solving, flowchart and logic programming.</p>
-
-<h3 id="the-turtle">The Turtle</h3>
-<p>My first programming language is Logo (Wiki). Logo is console consist of a turtle that draws according to the command given. We can draw anything using command like Pen off, pen on, turn right, turn left… </p>
-
-<h3 id="my-first-hello-world">My First “Hello World”</h3>
-<p><code>common-lisp It drew a square box.
-FORWARD 100
-LEFT 90
-FORWARD 100
-LEFT 90
-FORWARD 100
-LEFT 90
-FORWARD 100
-LEFT 90
-</code></p>
 ]]></content>
   </entry>
   
