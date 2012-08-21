@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Information Theory on Images - Shern Shiou</title>
+  <title>Life Updates - Shern Shiou</title>
   <meta name="author" content="shernshiou">
 
   
-  <meta name="description" content="In the past, I have always encountered these questions while doing my research. To truly emulate human vision perception in computer vision, I need &hellip;">
+  <meta name="description" content="Little bit updates since my last post. I am learning a lot lately, knowledge wise and spiritual wise. I think its important for a person to take a &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://tranquil-bastion-2708.herokuapp.com//blog/2011/05/26/information-theory-on-images/">
+  <link rel="canonical" href="http://tranquil-bastion-2708.herokuapp.com//blog/2012/08/21/life-updates/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -95,7 +95,7 @@ MathJax.Hub.Config({
   
   <header>
     
-      <h1 class="entry-title">Information Theory on Images</h1>
+      <h1 class="entry-title">Life Updates</h1>
     
     
       <p class="meta">
@@ -111,46 +111,23 @@ MathJax.Hub.Config({
   
 
 
-<time datetime="2011-05-26T00:00:00+08:00" pubdate data-updated="true">May 26<span>th</span>, 2011</time>
+<time datetime="2012-08-21T11:20:00+08:00" pubdate data-updated="true">Aug 21<span>st</span>, 2012</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>In the past, I have always encountered these questions while doing my research. To truly emulate human vision perception in computer vision, I need to understand how the mechanism works. These questions form the fundamental mechanism of human vision. Therefore, I decided to compute several images to proof my believe. My main hypothesis is human vision is represented in HSV colour model rather than RGB colour model. To proof this, I will be using basic Information Theory to compute the information composition in an single image both RGB and HSV.</p>
+<div class="entry-content"><p>Little bit updates since my last post. I am learning a lot lately, knowledge wise and spiritual wise. 
+I think its important for a person to take a look at Maslow’s hierarchy of needs (<a href="http://en.wikipedia.org/wiki/Maslow's_hierarchy_of_needs">http://en.wikipedia.org/wiki/Maslow’s_hierarchy_of_needs</a>). It may or may not be applicable for each individual needs but I think every person have their own hierarchy of needs. Most importantly every needs are built entirely as an hierarchy where the lowest needs always Physiological. Each level of needs depends on their lower level of needs. If one’s fundamental needs cannot be achievable the top most needs collapse too. E.g. you cannot be successful at your work if you have trouble finding your food source and shelter (Physiological needs). On the other hand, life’s goal go hand in hand with your hierarchy of needs. In order to achieve higher goal, certain level of need need to be attain else the physical or mental properties of the person are not on par with the goal set. Take a look at your needs and set goal accordingly to achieve your needs and your future. </p>
 
-<h3 id="information-theory">Information Theory</h3>
+<p>Recently I love a quote which I read from Siddhartha written by Herman Hesse. It says:-</p>
 
-<script type="math/tex; mode=display">
-\begin{equation} H(X) = -\sum_{x \in \mathcal{X}} p(x) \log_b p(x). \end{equation}
-</script>
+<blockquote>
+  <p>“Beautiful was this world, looking at it thus, without searching, thus simply, thus childlike. Beautiful were the moon and the stars, beautiful was the stream and the banks, the forest and the rocks, the goat and the gold-beetle, the flower and the butterfly. Beautiful and lovely it was, thus to walk through the world, thus childlike, thus awoken, thus open to what is near, thus without distrust. “ </p>
+</blockquote>
 
-<h6 id="shannons-entropy-equation">Shannon’s Entropy Equation</h6>
-
-<p>The basic Shannon Entropy will be used to compute each individual plane in an image. This entropy is used to measure the unpredictability. The easier to predict, the lower the entropy it has. In this case, I also made an assumption that entropy directly relate to the information contained / encoded within. If you need detail description on Shannon Entropy, head over to <a href="http://en.wikipedia.org/wiki/Entropy_(information_theory)">http://en.wikipedia.org/wiki/Entropy_(information_theory)</a> which contains fairly understandable explanation.</p>
-
-<h3 id="methods">Methods</h3>
-<p>A set of 20 various images from grayscale to single colour, from human and non-human images are collected. Entropy will be computed on grayscale mode, Red plane, Blue plane, Green plane as well as Hue plane, Saturation plane and Intensity.</p>
-
-<h3 id="results-and-explanation">Results and Explanation</h3>
-<p><img class="center" src="/images/gallery/entropy_result.png" width="483" height="431" title="Result Table" />
-As expected RGB plane has pretty similar entropy in every images. If one of the plane has low entropy, both the plane will follow including the grayscale version of the image. On the other hand, HSV has a pretty interesting results. Averagely, Intensity plane has higher entropy than the other Hue and Saturation. In the event of grayscale image (note Image 17 and 18), Intensity contain entropy but not the other two.</p>
-
-<h3 id="conclusion">Conclusion</h3>
-<ol>
-  <li>Intensity planes contain more information. Therefore, we are able to perceive an image from only the intensity plane.</li>
-  <li>Single colour image does has information but when converted to HSV plane, it represents 0 entropy in every plane.</li>
-  <li>Human vision is closer to HSV than RGB. Notes: Cone cell in retina</li>
-</ol>
-
-<h3 id="references">References</h3>
-<ol>
-  <li>Wikipedia on Shannon Entropy <a href="http://en.wikipedia.org/wiki/Entropy_(information_theory)">http://en.wikipedia.org/wiki/Entropy_(information_theory)</a></li>
-  <li>Beginner explanation of how entropy is applied in classification <a href="http://stackoverflow.com/questions/1859554/what-is-entropy-and-information-gain">http://stackoverflow.com/questions/1859554/what-is-entropy-and-information-gain</a></li>
-  <li>Kodak Lossless Image Suite used in Sample Images <a href="http://r0k.us/graphics/kodak/">http://r0k.us/graphics/kodak/</a></li>
-</ol>
-
+<p>Yes the world is that beautiful, keep moving in tiny steps :)</p>
 </div>
 
 
@@ -173,21 +150,15 @@ As expected RGB plane has pretty similar entropy in every images. If one of the 
   
 
 
-<time datetime="2011-05-26T00:00:00+08:00" pubdate data-updated="true">May 26<span>th</span>, 2011</time>
+<time datetime="2012-08-21T11:20:00+08:00" pubdate data-updated="true">Aug 21<span>st</span>, 2012</time>
       
-
-<span class="categories">
-  
-    <a class='category' href='/blog/categories/computing/'>Computing</a>, <a class='category' href='/blog/categories/research/'>Research</a>
-  
-</span>
 
 
     </p>
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://tranquil-bastion-2708.herokuapp.com//blog/2011/05/26/information-theory-on-images/" data-via="shernshiou" data-counturl="http://tranquil-bastion-2708.herokuapp.com//blog/2011/05/26/information-theory-on-images/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://tranquil-bastion-2708.herokuapp.com//blog/2012/08/21/life-updates/" data-via="shernshiou" data-counturl="http://tranquil-bastion-2708.herokuapp.com//blog/2012/08/21/life-updates/" >Tweet</a>
   
   
   
@@ -196,10 +167,8 @@ As expected RGB plane has pretty similar entropy in every images. If one of the 
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2011/05/16/css3-gradient-and-transparency/" title="Previous Post: CSS3 Gradient and Transparency">&laquo; CSS3 Gradient and Transparency</a>
+        <a class="basic-alignment left" href="/blog/2012/04/04/youtube-html-client-using-backbone-dot-js/" title="Previous Post: Youtube HTML Client using Backbone.js">&laquo; Youtube HTML Client using Backbone.js</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2011/06/08/level-of-desperation/" title="Next Post: Level of Desperation">Level of Desperation &raquo;</a>
       
     </p>
   </footer>

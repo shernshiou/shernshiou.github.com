@@ -4,7 +4,7 @@
   <title><![CDATA[Shern Shiou]]></title>
   <link href="http://tranquil-bastion-2708.herokuapp.com//atom.xml" rel="self"/>
   <link href="http://tranquil-bastion-2708.herokuapp.com//"/>
-  <updated>2012-08-21T11:19:21+08:00</updated>
+  <updated>2012-08-21T11:21:26+08:00</updated>
   <id>http://tranquil-bastion-2708.herokuapp.com//</id>
   <author>
     <name><![CDATA[shernshiou]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Life Updates]]></title>
+    <link href="http://tranquil-bastion-2708.herokuapp.com//blog/2012/08/21/life-updates/"/>
+    <updated>2012-08-21T11:20:00+08:00</updated>
+    <id>http://tranquil-bastion-2708.herokuapp.com//blog/2012/08/21/life-updates</id>
+    <content type="html"><![CDATA[<p>Little bit updates since my last post. I am learning a lot lately, knowledge wise and spiritual wise. 
+I think its important for a person to take a look at Maslow’s hierarchy of needs (<a href="http://en.wikipedia.org/wiki/Maslow's_hierarchy_of_needs">http://en.wikipedia.org/wiki/Maslow’s_hierarchy_of_needs</a>). It may or may not be applicable for each individual needs but I think every person have their own hierarchy of needs. Most importantly every needs are built entirely as an hierarchy where the lowest needs always Physiological. Each level of needs depends on their lower level of needs. If one’s fundamental needs cannot be achievable the top most needs collapse too. E.g. you cannot be successful at your work if you have trouble finding your food source and shelter (Physiological needs). On the other hand, life’s goal go hand in hand with your hierarchy of needs. In order to achieve higher goal, certain level of need need to be attain else the physical or mental properties of the person are not on par with the goal set. Take a look at your needs and set goal accordingly to achieve your needs and your future. </p>
+
+<p>Recently I love a quote which I read from Siddhartha written by Herman Hesse. It says:-</p>
+
+<blockquote>
+  <p>“Beautiful was this world, looking at it thus, without searching, thus simply, thus childlike. Beautiful were the moon and the stars, beautiful was the stream and the banks, the forest and the rocks, the goat and the gold-beetle, the flower and the butterfly. Beautiful and lovely it was, thus to walk through the world, thus childlike, thus awoken, thus open to what is near, thus without distrust. “ </p>
+</blockquote>
+
+<p>Yes the world is that beautiful, keep moving in tiny steps :)</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Youtube HTML Client using Backbone.js]]></title>
@@ -365,39 +383,6 @@ Can anyone identify where is this pretty beach?</p>
     <updated>2011-04-25T00:00:00+08:00</updated>
     <id>http://tranquil-bastion-2708.herokuapp.com//blog/2011/04/25/crap-food</id>
     <content type="html"><![CDATA[<p><img class="center" src="http://tranquil-bastion-2708.herokuapp.com//images/gallery/crap_food.jpg" width="640" height="480" title="Huge Crap Seafood Restaurent" /></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Keeping yourself up to date]]></title>
-    <link href="http://tranquil-bastion-2708.herokuapp.com//blog/2011/04/20/keeping-yourself-up-to-date/"/>
-    <updated>2011-04-20T00:00:00+08:00</updated>
-    <id>http://tranquil-bastion-2708.herokuapp.com//blog/2011/04/20/keeping-yourself-up-to-date</id>
-    <content type="html"><![CDATA[<p>I always believe you need to keep yourself abreast with new technologies if your day in and day out activities have to do with computer. You cannot runaway from learning new stuffs everyday if you would like to maintain your competitive in your field. This applies especially to those who majored in computing field be it Computer Science or Information Technology. Self learning is the no. 1 skill needed followed by Googl-ing. If you resist to change, you might be the next dinosaur waiting to be replaced.
-Luckily, by taking advantage of the Internet, the people who work side by side with computers are able to keep themselves updated by using the tools online.
-## Social Media
-- Have a Twitter account and subscribe to tech news such as @mashable, @engadget …
-- Official company Twitter like @microsoft, @google will twit about their product improvements and whats new.
-Famous people like @kevinrose, @jeresig might provide insights on latest / future interesting tech
-## News
-- Use feedreader like Google Reader to subscribe to the latest tech news and blogs for upcoming news through feed like Gizmodo, BGR
-- Join HN (http://news.ycombinator.com) where bleeding edge tech news are shared
-- Sites like Reddit and Digg has some tech categories in it. Be sure to check it out.
-- Newspaper (and any media linked to conventional newspaper agencies) are outdated can be completely waste of time.
-## QA Knowledge Market
-- Having doubts on something you barely know? Ask in Quora or Stackexchange. The people there are extremely helpful.
-- Stackexchange has several different sites serving different needs. Go to Stackoverflow for more in-depth computing coverage.
-## Podcast / Videocast
-- Constantly checkout the podcast and videocast for new techniques (covering how to program..)
-- Youtube and Vimeo serve a lot of video. Search and subscribe.
-- TED.com is another source of interesting lecture on brilliant ideas.
-## Honorable Mentions
-- Facebook pages too serve some interesting information.
-- For anything else, there is always our mighty Wikipedia.</p>
-
-<blockquote>
-  <p>Be sure to keep yourself up to date, what you did in campus is the past.</p>
-</blockquote>
 ]]></content>
   </entry>
   
