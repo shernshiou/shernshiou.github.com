@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Life as a Code Surgeon"
+date: 2012-07-05 00:00
+comments: true
+categories: [Job]
+---
+From past few weeks till now, everyday moves fast. Been through ups and downs. Most of the time, it was stressful. For the first time, coding felt like an operation. When I was looking at the IDE, my surrounding resembles an operation room like the one in Grey's Anatomy. My teammates left and right were like the other doctors giving me advices here and there. While I am the one holding my mouse like scalpel and executing the surgery by typing on my keyboard. This time I am flying solo. My mission now is to replace the old organ with the new and improved organ. The operation was hard. It went bitter when decommissioning the old component went hay-wire. Some tightly coupled segments misbehaved when I tried to pull out the old component. In order for the new component to work well, I need to fix the other parts as well. Sometimes when I was fixing other parts, I encountered tumour that was preventing the new component to slot in. The tumour therefore need to be removed. My nightmare came when my patient when into coma due to code haemorrhage. The memory keep bleeding, I need to open out the body and detect the wound. I hope everything will be fine. The operation is still undergoing but it is almost completed. I just wish my patient will wake up tomorrow, living the life like a normal person with an improved organ. 

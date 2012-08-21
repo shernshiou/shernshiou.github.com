@@ -4,7 +4,7 @@
   <title><![CDATA[Shern Shiou]]></title>
   <link href="http://tranquil-bastion-2708.herokuapp.com//atom.xml" rel="self"/>
   <link href="http://tranquil-bastion-2708.herokuapp.com//"/>
-  <updated>2012-08-21T11:35:06+08:00</updated>
+  <updated>2012-08-21T11:37:13+08:00</updated>
   <id>http://tranquil-bastion-2708.herokuapp.com//</id>
   <author>
     <name><![CDATA[shernshiou]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Life as a Code Surgeon]]></title>
+    <link href="http://tranquil-bastion-2708.herokuapp.com//blog/2012/07/05/life-as-a-code-surgeon/"/>
+    <updated>2012-07-05T00:00:00+08:00</updated>
+    <id>http://tranquil-bastion-2708.herokuapp.com//blog/2012/07/05/life-as-a-code-surgeon</id>
+    <content type="html"><![CDATA[<p>From past few weeks till now, everyday moves fast. Been through ups and downs. Most of the time, it was stressful. For the first time, coding felt like an operation. When I was looking at the IDE, my surrounding resembles an operation room like the one in Grey’s Anatomy. My teammates left and right were like the other doctors giving me advices here and there. While I am the one holding my mouse like scalpel and executing the surgery by typing on my keyboard. This time I am flying solo. My mission now is to replace the old organ with the new and improved organ. The operation was hard. It went bitter when decommissioning the old component went hay-wire. Some tightly coupled segments misbehaved when I tried to pull out the old component. In order for the new component to work well, I need to fix the other parts as well. Sometimes when I was fixing other parts, I encountered tumour that was preventing the new component to slot in. The tumour therefore need to be removed. My nightmare came when my patient when into coma due to code haemorrhage. The memory keep bleeding, I need to open out the body and detect the wound. I hope everything will be fine. The operation is still undergoing but it is almost completed. I just wish my patient will wake up tomorrow, living the life like a normal person with an improved organ. </p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Hello]]></title>
@@ -334,47 +343,6 @@ Mr Ong XXX XXXN</p>
 <blockquote>
   <p>p/s: Sorry I do not have a Richter Scale for it.</p>
 </blockquote>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Information Theory on Images]]></title>
-    <link href="http://tranquil-bastion-2708.herokuapp.com//blog/2011/05/26/information-theory-on-images/"/>
-    <updated>2011-05-26T00:00:00+08:00</updated>
-    <id>http://tranquil-bastion-2708.herokuapp.com//blog/2011/05/26/information-theory-on-images</id>
-    <content type="html"><![CDATA[<p>In the past, I have always encountered these questions while doing my research. To truly emulate human vision perception in computer vision, I need to understand how the mechanism works. These questions form the fundamental mechanism of human vision. Therefore, I decided to compute several images to proof my believe. My main hypothesis is human vision is represented in HSV colour model rather than RGB colour model. To proof this, I will be using basic Information Theory to compute the information composition in an single image both RGB and HSV.</p>
-
-<h3 id="information-theory">Information Theory</h3>
-
-<script type="math/tex; mode=display">
-\begin{equation} H(X) = -\sum_{x \in \mathcal{X}} p(x) \log_b p(x). \end{equation}
-</script>
-
-<h6 id="shannons-entropy-equation">Shannon’s Entropy Equation</h6>
-
-<p>The basic Shannon Entropy will be used to compute each individual plane in an image. This entropy is used to measure the unpredictability. The easier to predict, the lower the entropy it has. In this case, I also made an assumption that entropy directly relate to the information contained / encoded within. If you need detail description on Shannon Entropy, head over to <a href="http://en.wikipedia.org/wiki/Entropy_(information_theory)">http://en.wikipedia.org/wiki/Entropy_(information_theory)</a> which contains fairly understandable explanation.</p>
-
-<h3 id="methods">Methods</h3>
-<p>A set of 20 various images from grayscale to single colour, from human and non-human images are collected. Entropy will be computed on grayscale mode, Red plane, Blue plane, Green plane as well as Hue plane, Saturation plane and Intensity.</p>
-
-<h3 id="results-and-explanation">Results and Explanation</h3>
-<p><img class="center" src="http://tranquil-bastion-2708.herokuapp.com//images/gallery/entropy_result.png" width="483" height="431" title="Result Table" />
-As expected RGB plane has pretty similar entropy in every images. If one of the plane has low entropy, both the plane will follow including the grayscale version of the image. On the other hand, HSV has a pretty interesting results. Averagely, Intensity plane has higher entropy than the other Hue and Saturation. In the event of grayscale image (note Image 17 and 18), Intensity contain entropy but not the other two.</p>
-
-<h3 id="conclusion">Conclusion</h3>
-<ol>
-  <li>Intensity planes contain more information. Therefore, we are able to perceive an image from only the intensity plane.</li>
-  <li>Single colour image does has information but when converted to HSV plane, it represents 0 entropy in every plane.</li>
-  <li>Human vision is closer to HSV than RGB. Notes: Cone cell in retina</li>
-</ol>
-
-<h3 id="references">References</h3>
-<ol>
-  <li>Wikipedia on Shannon Entropy <a href="http://en.wikipedia.org/wiki/Entropy_(information_theory)">http://en.wikipedia.org/wiki/Entropy_(information_theory)</a></li>
-  <li>Beginner explanation of how entropy is applied in classification <a href="http://stackoverflow.com/questions/1859554/what-is-entropy-and-information-gain">http://stackoverflow.com/questions/1859554/what-is-entropy-and-information-gain</a></li>
-  <li>Kodak Lossless Image Suite used in Sample Images <a href="http://r0k.us/graphics/kodak/">http://r0k.us/graphics/kodak/</a></li>
-</ol>
-
 ]]></content>
   </entry>
   
