@@ -11,6 +11,7 @@ I have slowed down my updates on my blog these months. Lately, I spend my time t
 2. Changes are tracked with Git
 3. Markdown
 4. Code snippet with Pygments (find some of them at [Code Categories](/blog/categories/code/))
+5. Awesome mobile theme
 
 But this platform has several downside compared to Posterous
 

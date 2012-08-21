@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Life | Shern Shiou]]></title>
   <link href="http://tranquil-bastion-2708.herokuapp.com//blog/categories/life/atom.xml" rel="self"/>
   <link href="http://tranquil-bastion-2708.herokuapp.com//"/>
-  <updated>2012-08-21T11:56:33+08:00</updated>
+  <updated>2012-08-21T11:58:46+08:00</updated>
   <id>http://tranquil-bastion-2708.herokuapp.com//</id>
   <author>
     <name><![CDATA[shernshiou]]></name>
@@ -25,6 +25,7 @@
   <li>Changes are tracked with Git</li>
   <li>Markdown</li>
   <li>Code snippet with Pygments (find some of them at <a href="/blog/categories/code/">Code Categories</a>)</li>
+  <li>Awesome mobile theme</li>
 </ol>
 
 <p>But this platform has several downside compared to Posterous</p>
