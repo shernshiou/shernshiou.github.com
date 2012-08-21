@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Web | Shern Shiou]]></title>
   <link href="http://tranquil-bastion-2708.herokuapp.com//blog/categories/web/atom.xml" rel="self"/>
   <link href="http://tranquil-bastion-2708.herokuapp.com//"/>
-  <updated>2012-08-21T11:21:26+08:00</updated>
+  <updated>2012-08-21T11:27:36+08:00</updated>
   <id>http://tranquil-bastion-2708.herokuapp.com//</id>
   <author>
     <name><![CDATA[shernshiou]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Switch]]></title>
+    <link href="http://tranquil-bastion-2708.herokuapp.com//blog/2012/04/25/switch/"/>
+    <updated>2012-04-25T00:00:00+08:00</updated>
+    <id>http://tranquil-bastion-2708.herokuapp.com//blog/2012/04/25/switch</id>
+    <content type="html"><![CDATA[<p>I am considering switching from Posterous to Tumblr because of recent acquisition of Posterous by Twitter.</p>
+
+<blockquote>
+  <p>Apparently, I have decided to switch to Octopress :) 2012-08-20</p>
+</blockquote>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Youtube HTML Client using Backbone.js]]></title>

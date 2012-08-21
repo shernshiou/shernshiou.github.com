@@ -3,6 +3,6 @@ layout: post
 title: "Wooooot!"
 date: 2012-02-23 01:00
 comments: true
-categories: [Life]
+categories: [Life, Blog]
 ---
 Just found out someone really did read my blog... Maybe I should post more.. :P

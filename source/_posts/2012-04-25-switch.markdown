@@ -1,0 +1,10 @@
+---
+layout: post
+title: "Switch"
+date: 2012-04-25 00:00
+comments: true
+categories: [Web, Blog]
+---
+I am considering switching from Posterous to Tumblr because of recent acquisition of Posterous by Twitter.
+
+> Apparently, I have decided to switch to Octopress :) 2012-08-20

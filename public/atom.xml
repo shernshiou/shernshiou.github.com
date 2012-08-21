@@ -4,7 +4,7 @@
   <title><![CDATA[Shern Shiou]]></title>
   <link href="http://tranquil-bastion-2708.herokuapp.com//atom.xml" rel="self"/>
   <link href="http://tranquil-bastion-2708.herokuapp.com//"/>
-  <updated>2012-08-21T11:21:26+08:00</updated>
+  <updated>2012-08-21T11:27:36+08:00</updated>
   <id>http://tranquil-bastion-2708.herokuapp.com//</id>
   <author>
     <name><![CDATA[shernshiou]]></name>
@@ -14,10 +14,43 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Here Comes A New Challenger!]]></title>
+    <link href="http://tranquil-bastion-2708.herokuapp.com//blog/2012/05/03/here-comes-a-new-challenger/"/>
+    <updated>2012-05-03T00:00:00+08:00</updated>
+    <id>http://tranquil-bastion-2708.herokuapp.com//blog/2012/05/03/here-comes-a-new-challenger</id>
+    <content type="html"><![CDATA[<p>Two days ago at Orlando, Florida, RIM has just announce their upcoming product along with the spanking new Blackberry 10 (BBX). I am biased as I am working with BBX lately, I found that this announcement welcoming. Not mentioning the latest mobile gadget gimmickry, I am more intrigued on the development on BBX natively. Up until now only iOS officially support app development natively using Objective-C. As for the other platform, Android support native development with NDK (but its awfully ugly when you need to integrate NDK with Java through JNDI). As for Windows Phone 7, you all the codes are running on .NET VM. </p>
+
+<p>I think BBX might change the game here with its Native development package. With it, I see many advantages (let alone the speed native can provide) compared not only with Android and WP7 but also iOS.</p>
+
+<ol>
+  <li>Low learning gap with C++</li>
+  <li>Great utility with Qt (Yes, BBX native is backed by Qt)</li>
+  <li>Lots of supported opensource project like OpenAL</li>
+  <li>With Cascades (and QML from Qt), UI is easier to code and pretty too!</li>
+</ol>
+
+<p>I cant wait to get my hand on of those device.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Switch]]></title>
+    <link href="http://tranquil-bastion-2708.herokuapp.com//blog/2012/04/25/switch/"/>
+    <updated>2012-04-25T00:00:00+08:00</updated>
+    <id>http://tranquil-bastion-2708.herokuapp.com//blog/2012/04/25/switch</id>
+    <content type="html"><![CDATA[<p>I am considering switching from Posterous to Tumblr because of recent acquisition of Posterous by Twitter.</p>
+
+<blockquote>
+  <p>Apparently, I have decided to switch to Octopress :) 2012-08-20</p>
+</blockquote>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Life Updates]]></title>
-    <link href="http://tranquil-bastion-2708.herokuapp.com//blog/2012/08/21/life-updates/"/>
-    <updated>2012-08-21T11:20:00+08:00</updated>
-    <id>http://tranquil-bastion-2708.herokuapp.com//blog/2012/08/21/life-updates</id>
+    <link href="http://tranquil-bastion-2708.herokuapp.com//blog/2012/04/18/life-updates/"/>
+    <updated>2012-04-18T00:00:00+08:00</updated>
+    <id>http://tranquil-bastion-2708.herokuapp.com//blog/2012/04/18/life-updates</id>
     <content type="html"><![CDATA[<p>Little bit updates since my last post. I am learning a lot lately, knowledge wise and spiritual wise. 
 I think its important for a person to take a look at Maslow’s hierarchy of needs (<a href="http://en.wikipedia.org/wiki/Maslow's_hierarchy_of_needs">http://en.wikipedia.org/wiki/Maslow’s_hierarchy_of_needs</a>). It may or may not be applicable for each individual needs but I think every person have their own hierarchy of needs. Most importantly every needs are built entirely as an hierarchy where the lowest needs always Physiological. Each level of needs depends on their lower level of needs. If one’s fundamental needs cannot be achievable the top most needs collapse too. E.g. you cannot be successful at your work if you have trouble finding your food source and shelter (Physiological needs). On the other hand, life’s goal go hand in hand with your hierarchy of needs. In order to achieve higher goal, certain level of need need to be attain else the physical or mental properties of the person are not on par with the goal set. Take a look at your needs and set goal accordingly to achieve your needs and your future. </p>
 
@@ -364,25 +397,6 @@ As expected RGB plane has pretty similar entropy in every images. If one of the 
 
 <h3 id="what-is-data-engineering">What is Data Engineering?</h3>
 <p>We need people who are expert in managing the data. The experts may not be of computer science background because data engineering has been part of many profession. For example, statistician/mathematician often are good in explaining huge amount of data while neurologists have the knowledge on the data management inside our human brain. Their job scope should include more than choosing the right storage to preserve the data, system to organize the data, technology to retrieve the data. Data engineer need to churn out useful information from the data collection, explains the phenomenon and understand their nature. Data engineering will be the trend in the future while Computer Science will aid in providing tools to increase the performance of data engineer especially Machine Learning.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Cuti-cuti Malaysia]]></title>
-    <link href="http://tranquil-bastion-2708.herokuapp.com//blog/2011/05/09/cuti-cuti-malaysia/"/>
-    <updated>2011-05-09T00:00:00+08:00</updated>
-    <id>http://tranquil-bastion-2708.herokuapp.com//blog/2011/05/09/cuti-cuti-malaysia</id>
-    <content type="html"><![CDATA[<p><img class="center" src="http://tranquil-bastion-2708.herokuapp.com//images/gallery/redang.jpg" width="480" height="270" title="Pulau Redang" />
-Can anyone identify where is this pretty beach?</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Crap Food]]></title>
-    <link href="http://tranquil-bastion-2708.herokuapp.com//blog/2011/04/25/crap-food/"/>
-    <updated>2011-04-25T00:00:00+08:00</updated>
-    <id>http://tranquil-bastion-2708.herokuapp.com//blog/2011/04/25/crap-food</id>
-    <content type="html"><![CDATA[<p><img class="center" src="http://tranquil-bastion-2708.herokuapp.com//images/gallery/crap_food.jpg" width="640" height="480" title="Huge Crap Seafood Restaurent" /></p>
 ]]></content>
   </entry>
   

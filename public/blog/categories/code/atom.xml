@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Code | Shern Shiou]]></title>
   <link href="http://tranquil-bastion-2708.herokuapp.com//blog/categories/code/atom.xml" rel="self"/>
   <link href="http://tranquil-bastion-2708.herokuapp.com//"/>
-  <updated>2012-08-21T11:21:26+08:00</updated>
+  <updated>2012-08-21T11:27:36+08:00</updated>
   <id>http://tranquil-bastion-2708.herokuapp.com//</id>
   <author>
     <name><![CDATA[shernshiou]]></name>
@@ -12,6 +12,26 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Here Comes A New Challenger!]]></title>
+    <link href="http://tranquil-bastion-2708.herokuapp.com//blog/2012/05/03/here-comes-a-new-challenger/"/>
+    <updated>2012-05-03T00:00:00+08:00</updated>
+    <id>http://tranquil-bastion-2708.herokuapp.com//blog/2012/05/03/here-comes-a-new-challenger</id>
+    <content type="html"><![CDATA[<p>Two days ago at Orlando, Florida, RIM has just announce their upcoming product along with the spanking new Blackberry 10 (BBX). I am biased as I am working with BBX lately, I found that this announcement welcoming. Not mentioning the latest mobile gadget gimmickry, I am more intrigued on the development on BBX natively. Up until now only iOS officially support app development natively using Objective-C. As for the other platform, Android support native development with NDK (but its awfully ugly when you need to integrate NDK with Java through JNDI). As for Windows Phone 7, you all the codes are running on .NET VM. </p>
+
+<p>I think BBX might change the game here with its Native development package. With it, I see many advantages (let alone the speed native can provide) compared not only with Android and WP7 but also iOS.</p>
+
+<ol>
+  <li>Low learning gap with C++</li>
+  <li>Great utility with Qt (Yes, BBX native is backed by Qt)</li>
+  <li>Lots of supported opensource project like OpenAL</li>
+  <li>With Cascades (and QML from Qt), UI is easier to code and pretty too!</li>
+</ol>
+
+<p>I cant wait to get my hand on of those device.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Youtube HTML Client using Backbone.js]]></title>
@@ -74,44 +94,6 @@ GROUP BY `name`
 HAVING cnt &gt; 1
 ORDER by cnt;
 </code></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[CSS3 Gradient and Transparency]]></title>
-    <link href="http://tranquil-bastion-2708.herokuapp.com//blog/2011/05/16/css3-gradient-and-transparency/"/>
-    <updated>2011-05-16T00:00:00+08:00</updated>
-    <id>http://tranquil-bastion-2708.herokuapp.com//blog/2011/05/16/css3-gradient-and-transparency</id>
-    <content type="html"><![CDATA[<p>Due to inconsistency of CSS3 implementation across different web browser, I wish to leave some note on Gradient and Transparency.</p>
-
-<h4 id="transparency">Transparency</h4>
-<p><code>css Mozilla and Webkit based
-background: rgba(0,0,0,0.3);
-</code>
-<code>css IE based
-background:transparent;
-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#50000000,endColorstr=#50000000);
-</code></p>
-
-<h4 id="gradient">Gradient</h4>
-<p><code>css Mozilla based
-background: -moz-linear-gradient(rgba(255,131,126,1) 0%, (255,131,126,0) 95%;
-</code>
-<code>css Webkit based
-background: -webkit-gradient(linear, left top, left bottom, 
-from(rgba(255,131,126,1)),to(rgba(255,131,126,0)));
-</code>
-<code>css IE based
-background:transparent;
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFF837E, endColorstr=#00FF837E);
-</code></p>
-
-<h3 id="references">References:</h3>
-<ol>
-  <li>MSDN <a href="http://msdn.microsoft.com/en-us/library/ms532930.aspx">http://msdn.microsoft.com/en-us/library/ms532930.aspx</a></li>
-  <li>Stackoverflow <a href="http://stackoverflow.com/questions/2293910/css3-transparency-gradient">http://stackoverflow.com/questions/2293910/css3-transparency-gradient</a></li>
-  <li>CSS Tricks <a href="http://css-tricks.com/rgba-browser-support/">http://css-tricks.com/rgba-browser-support/</a></li>
-</ol>
 ]]></content>
   </entry>
   

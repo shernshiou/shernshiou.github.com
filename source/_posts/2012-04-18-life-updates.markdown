@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Life Updates"
-date: 2012-08-21 11:20
+date: 2012-04-18 00:00
 comments: true
 categories: 
 ---
