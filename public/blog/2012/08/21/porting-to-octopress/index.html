@@ -5,14 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>QString to Char* - Shern Shiou</title>
+  <title>Porting to Octopress - Shern Shiou</title>
   <meta name="author" content="shernshiou">
 
   
-  <meta name="description" content="Thanks to Qt Forum Below help us to get Char* out from QString and the other way around: Convert QString to Char*1
-2
-3
-QString inputString = &quot; &hellip;">
+  <meta name="description" content="I have slowed down my updates on my blog these months. Lately, I spend my time travelling so do my works. The other reason behind the reduced of new &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -21,7 +18,7 @@ QString inputString = &quot; &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://tranquil-bastion-2708.herokuapp.com//blog/2011/10/13/qstring-to-char-star/">
+  <link rel="canonical" href="http://tranquil-bastion-2708.herokuapp.com//blog/2012/08/21/porting-to-octopress/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -98,7 +95,7 @@ MathJax.Hub.Config({
   
   <header>
     
-      <h1 class="entry-title">QString to Char*</h1>
+      <h1 class="entry-title">Porting to Octopress</h1>
     
     
       <p class="meta">
@@ -114,28 +111,32 @@ MathJax.Hub.Config({
   
 
 
-<time datetime="2011-10-13T00:00:00+08:00" pubdate data-updated="true">Oct 13<span>th</span>, 2011</time>
+<time datetime="2012-08-21T11:39:00+08:00" pubdate data-updated="true">Aug 21<span>st</span>, 2012</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>Thanks to <a href="http://developer.qt.nokia.com/faq/answer/how_can_i_convert_a_qstring_to_char_and_vice_versa">Qt Forum</a></p>
+<div class="entry-content"><p>I have slowed down my updates on my blog these months. Lately, I spend my time travelling so do my works. The other reason behind the reduced of new posts because I am considering alternative platform to Posterous. Some of you might know that Posterous is winding down after the acquisition by Twitter. After several trials, I’ve decided to settle with Octopress hosted with Heroku due to several reasons:-</p>
 
-<p>Below help us to get Char* out from QString and the other way around:</p>
+<ol>
+  <li>Complete mirror of local copy</li>
+  <li>Changes are tracked with Git</li>
+  <li>Markdown</li>
+  <li>Code snippet with Pygments (find some of them at <a href="/blog/categories/code/">Code Categories</a>)</li>
+</ol>
 
-<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span>Convert QString to Char*</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
-<span class="line-number">2</span>
-<span class="line-number">3</span>
-</pre></td><td class="code"><pre><code class="c++"><span class="line"><span class="n">QString</span> <span class="n">inputString</span> <span class="o">=</span> <span class="s">&quot;hello&quot;</span><span class="p">;</span>
-</span><span class="line"><span class="n">QByteArray</span> <span class="n">byteArray</span> <span class="o">=</span> <span class="n">inputString</span><span class="p">.</span><span class="n">toUtf8</span><span class="p">();</span>
-</span><span class="line"><span class="k">const</span> <span class="kt">char</span><span class="o">*</span> <span class="n">cString</span> <span class="o">=</span> <span class="n">byteArray</span><span class="p">.</span><span class="n">constData</span><span class="p">();</span>
-</span></code></pre></td></tr></table></div></figure></notextile></div>
+<p>But this platform has several downside compared to Posterous</p>
 
-<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span>Convert Char* to QString</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
-</pre></td><td class="code"><pre><code class="c++"><span class="line"><span class="n">QString</span> <span class="n">qString2</span> <span class="o">=</span> <span class="n">QString</span><span class="o">::</span><span class="n">fromUtf8</span><span class="p">(</span><span class="n">cString</span><span class="p">);</span>
-</span></code></pre></td></tr></table></div></figure></notextile></div>
+<ol>
+  <li>Lack of other ways of posting (e.g. email, mobile)</li>
+  <li>Hard to embed without writing some changes</li>
+  <li>I’m not familiar with Ruby</li>
+  <li>Size matters at Heroku (for free hosting)</li>
+</ol>
+
+<p>I’m at about 80% of the total progress because I am still finding ways to include more images (by including other hosting) and porting embedded IFrame. One custom changes I’ve made on this blog is the ability to display LaTeX Math Equation with Kramdown (thanks to <a href="http://greglus.com/blog/2011/11/29/integrate-MathJax-LaTeX-and-MathML-Markup-in-Octopress/">Greglus</a>). </p>
 </div>
 
 
@@ -158,12 +159,12 @@ MathJax.Hub.Config({
   
 
 
-<time datetime="2011-10-13T00:00:00+08:00" pubdate data-updated="true">Oct 13<span>th</span>, 2011</time>
+<time datetime="2012-08-21T11:39:00+08:00" pubdate data-updated="true">Aug 21<span>st</span>, 2012</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/app/'>App</a>, <a class='category' href='/blog/categories/code/'>Code</a>
+    <a class='category' href='/blog/categories/blog/'>Blog</a>, <a class='category' href='/blog/categories/life/'>Life</a>
   
 </span>
 
@@ -172,7 +173,7 @@ MathJax.Hub.Config({
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://tranquil-bastion-2708.herokuapp.com//blog/2011/10/13/qstring-to-char-star/" data-via="shernshiou" data-counturl="http://tranquil-bastion-2708.herokuapp.com//blog/2011/10/13/qstring-to-char-star/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://tranquil-bastion-2708.herokuapp.com//blog/2012/08/21/porting-to-octopress/" data-via="shernshiou" data-counturl="http://tranquil-bastion-2708.herokuapp.com//blog/2012/08/21/porting-to-octopress/" >Tweet</a>
   
   
   
@@ -181,10 +182,8 @@ MathJax.Hub.Config({
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2011/07/21/how-i-became-a-programmer/" title="Previous Post: How I Became A Programmer?">&laquo; How I Became A Programmer?</a>
+        <a class="basic-alignment left" href="/blog/2012/07/05/life-as-a-code-surgeon/" title="Previous Post: Life as a Code Surgeon">&laquo; Life as a Code Surgeon</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2011/11/03/new-life/" title="Next Post: New Life">New Life &raquo;</a>
       
     </p>
   </footer>
