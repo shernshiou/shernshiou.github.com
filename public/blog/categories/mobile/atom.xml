@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Mobile | Shern Shiou]]></title>
-  <link href="http://shernshiou.github.com/shernshiou/blog/categories/mobile/atom.xml" rel="self"/>
-  <link href="http://shernshiou.github.com/shernshiou/"/>
-  <updated>2012-10-10T21:15:01+08:00</updated>
-  <id>http://shernshiou.github.com/shernshiou/</id>
+  <link href="http://shernshiou.github.com/blog/categories/mobile/atom.xml" rel="self"/>
+  <link href="http://shernshiou.github.com/"/>
+  <updated>2012-10-10T21:18:35+08:00</updated>
+  <id>http://shernshiou.github.com/</id>
   <author>
     <name><![CDATA[shernshiou]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Here Comes A New Challenger!]]></title>
-    <link href="http://shernshiou.github.com/shernshiou/blog/2012/05/03/here-comes-a-new-challenger/"/>
+    <link href="http://shernshiou.github.com/blog/2012/05/03/here-comes-a-new-challenger/"/>
     <updated>2012-05-03T00:00:00+08:00</updated>
-    <id>http://shernshiou.github.com/shernshiou/blog/2012/05/03/here-comes-a-new-challenger</id>
+    <id>http://shernshiou.github.com/blog/2012/05/03/here-comes-a-new-challenger</id>
     <content type="html"><![CDATA[<p>Two days ago at Orlando, Florida, RIM has just announce their upcoming product along with the spanking new Blackberry 10 (BBX). I am biased as I am working with BBX lately, I found that this announcement welcoming. Not mentioning the latest mobile gadget gimmickry, I am more intrigued on the development on BBX natively. Up until now only iOS officially support app development natively using Objective-C. As for the other platform, Android support native development with NDK (but its awfully ugly when you need to integrate NDK with Java through JNDI). As for Windows Phone 7, you all the codes are running on .NET VM. </p>
 
 <p>I think BBX might change the game here with its Native development package. With it, I see many advantages (let alone the speed native can provide) compared not only with Android and WP7 but also iOS.</p>

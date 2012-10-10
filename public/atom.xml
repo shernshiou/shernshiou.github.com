@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Shern Shiou]]></title>
-  <link href="http://shernshiou.github.com/shernshiou/atom.xml" rel="self"/>
-  <link href="http://shernshiou.github.com/shernshiou/"/>
-  <updated>2012-10-10T21:15:01+08:00</updated>
-  <id>http://shernshiou.github.com/shernshiou/</id>
+  <link href="http://shernshiou.github.com/atom.xml" rel="self"/>
+  <link href="http://shernshiou.github.com/"/>
+  <updated>2012-10-10T21:18:35+08:00</updated>
+  <id>http://shernshiou.github.com/</id>
   <author>
     <name><![CDATA[shernshiou]]></name>
     
@@ -15,25 +15,25 @@
   
   <entry>
     <title type="html"><![CDATA[Programmers' Negativity]]></title>
-    <link href="http://shernshiou.github.com/shernshiou/blog/2012/10/10/programmers-negativity/"/>
+    <link href="http://shernshiou.github.com/blog/2012/10/10/programmers-negativity/"/>
     <updated>2012-10-10T20:54:00+08:00</updated>
-    <id>http://shernshiou.github.com/shernshiou/blog/2012/10/10/programmers-negativity</id>
+    <id>http://shernshiou.github.com/blog/2012/10/10/programmers-negativity</id>
     <content type="html"><![CDATA[
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Porting to Octopress]]></title>
-    <link href="http://shernshiou.github.com/shernshiou/blog/2012/08/21/porting-to-octopress/"/>
+    <link href="http://shernshiou.github.com/blog/2012/08/21/porting-to-octopress/"/>
     <updated>2012-08-21T11:39:00+08:00</updated>
-    <id>http://shernshiou.github.com/shernshiou/blog/2012/08/21/porting-to-octopress</id>
+    <id>http://shernshiou.github.com/blog/2012/08/21/porting-to-octopress</id>
     <content type="html"><![CDATA[<p>I have slowed down my updates on my blog these months. Lately, I spend my time travelling so do my works. The other reason behind the reduced of new posts because I am considering alternative platform to Posterous. Some of you might know that Posterous is winding down after the acquisition by Twitter. After several trials, I’ve decided to settle with Octopress hosted with Heroku due to several reasons:-</p>
 
 <ol>
   <li>Complete mirror of local copy</li>
   <li>Changes are tracked with Git</li>
   <li>Markdown</li>
-  <li>Code snippet with Pygments (find some of them at <a href="http://shernshiou.github.com/shernshiou/blog/categories/code/">Code Categories</a>)</li>
+  <li>Code snippet with Pygments (find some of them at <a href="http://shernshiou.github.com/blog/categories/code/">Code Categories</a>)</li>
   <li>Awesome mobile theme</li>
 </ol>
 
@@ -52,18 +52,18 @@
   
   <entry>
     <title type="html"><![CDATA[Life as a Code Surgeon]]></title>
-    <link href="http://shernshiou.github.com/shernshiou/blog/2012/07/05/life-as-a-code-surgeon/"/>
+    <link href="http://shernshiou.github.com/blog/2012/07/05/life-as-a-code-surgeon/"/>
     <updated>2012-07-05T00:00:00+08:00</updated>
-    <id>http://shernshiou.github.com/shernshiou/blog/2012/07/05/life-as-a-code-surgeon</id>
+    <id>http://shernshiou.github.com/blog/2012/07/05/life-as-a-code-surgeon</id>
     <content type="html"><![CDATA[<p>From past few weeks till now, everyday moves fast. Been through ups and downs. Most of the time, it was stressful. For the first time, coding felt like an operation. When I was looking at the IDE, my surrounding resembles an operation room like the one in Grey’s Anatomy. My teammates left and right were like the other doctors giving me advices here and there. While I am the one holding my mouse like scalpel and executing the surgery by typing on my keyboard. This time I am flying solo. My mission now is to replace the old organ with the new and improved organ. The operation was hard. It went bitter when decommissioning the old component went hay-wire. Some tightly coupled segments misbehaved when I tried to pull out the old component. In order for the new component to work well, I need to fix the other parts as well. Sometimes when I was fixing other parts, I encountered tumour that was preventing the new component to slot in. The tumour therefore need to be removed. My nightmare came when my patient when into coma due to code haemorrhage. The memory keep bleeding, I need to open out the body and detect the wound. I hope everything will be fine. The operation is still undergoing but it is almost completed. I just wish my patient will wake up tomorrow, living the life like a normal person with an improved organ. </p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Hello]]></title>
-    <link href="http://shernshiou.github.com/shernshiou/blog/2012/06/17/hello/"/>
+    <link href="http://shernshiou.github.com/blog/2012/06/17/hello/"/>
     <updated>2012-06-17T06:34:00+08:00</updated>
-    <id>http://shernshiou.github.com/shernshiou/blog/2012/06/17/hello</id>
+    <id>http://shernshiou.github.com/blog/2012/06/17/hello</id>
     <content type="html"><![CDATA[<p>Raining outside my window<br />
 The sun is hiding behind the haze<br />
 Hello sky, are you feeling better now?</p>
@@ -80,9 +80,9 @@ Hello little animals, are you safe at home now?</p>
   
   <entry>
     <title type="html"><![CDATA[Population Growth]]></title>
-    <link href="http://shernshiou.github.com/shernshiou/blog/2012/05/08/population-growth/"/>
+    <link href="http://shernshiou.github.com/blog/2012/05/08/population-growth/"/>
     <updated>2012-05-08T00:00:00+08:00</updated>
-    <id>http://shernshiou.github.com/shernshiou/blog/2012/05/08/population-growth</id>
+    <id>http://shernshiou.github.com/blog/2012/05/08/population-growth</id>
     <content type="html"><![CDATA[<p>Human must be the favourite creation from the Nature. We are not only blessed with the power to think and comprehend but also very much suitable for the current situation. Human population grows tremendously in recent centuries especially after World War II (refer to  <a href="http://en.wikipedia.org/wiki/Population_growth">http://en.wikipedia.org/wiki/Population_growth</a>). Referring to the graph <a href="http://www.google.com/publicdata/explore?ds=d5bncppjof8f9_&amp;ctype=l&amp;strail=false&amp;bcs=d&amp;nselm=h&amp;met_y=sp_pop_totl&amp;scale_y=lin&amp;ind_y=false&amp;rdim=region&amp;ifdim=region&amp;tdim=true&amp;tstart=-304588800000&amp;tend=1304784000000&amp;hl=en_US&amp;dl=en&amp;ind=false&amp;q=world+data+population">here</a>, our population actually doubled from 1960s until now.</p>
 
 <p>Once people thought we might experienced serious food crisis that will prevent the human to expand further however with the technology, we are able to produce food better for most of the people here (2 out of 7 billion people here still experiencing food security). </p>
@@ -96,9 +96,9 @@ Hello little animals, are you safe at home now?</p>
   
   <entry>
     <title type="html"><![CDATA[Here Comes A New Challenger!]]></title>
-    <link href="http://shernshiou.github.com/shernshiou/blog/2012/05/03/here-comes-a-new-challenger/"/>
+    <link href="http://shernshiou.github.com/blog/2012/05/03/here-comes-a-new-challenger/"/>
     <updated>2012-05-03T00:00:00+08:00</updated>
-    <id>http://shernshiou.github.com/shernshiou/blog/2012/05/03/here-comes-a-new-challenger</id>
+    <id>http://shernshiou.github.com/blog/2012/05/03/here-comes-a-new-challenger</id>
     <content type="html"><![CDATA[<p>Two days ago at Orlando, Florida, RIM has just announce their upcoming product along with the spanking new Blackberry 10 (BBX). I am biased as I am working with BBX lately, I found that this announcement welcoming. Not mentioning the latest mobile gadget gimmickry, I am more intrigued on the development on BBX natively. Up until now only iOS officially support app development natively using Objective-C. As for the other platform, Android support native development with NDK (but its awfully ugly when you need to integrate NDK with Java through JNDI). As for Windows Phone 7, you all the codes are running on .NET VM. </p>
 
 <p>I think BBX might change the game here with its Native development package. With it, I see many advantages (let alone the speed native can provide) compared not only with Android and WP7 but also iOS.</p>
@@ -116,9 +116,9 @@ Hello little animals, are you safe at home now?</p>
   
   <entry>
     <title type="html"><![CDATA[Switch]]></title>
-    <link href="http://shernshiou.github.com/shernshiou/blog/2012/04/25/switch/"/>
+    <link href="http://shernshiou.github.com/blog/2012/04/25/switch/"/>
     <updated>2012-04-25T00:00:00+08:00</updated>
-    <id>http://shernshiou.github.com/shernshiou/blog/2012/04/25/switch</id>
+    <id>http://shernshiou.github.com/blog/2012/04/25/switch</id>
     <content type="html"><![CDATA[<p>I am considering switching from Posterous to Tumblr because of recent acquisition of Posterous by Twitter.</p>
 
 <blockquote>
@@ -129,9 +129,9 @@ Hello little animals, are you safe at home now?</p>
   
   <entry>
     <title type="html"><![CDATA[Life Updates]]></title>
-    <link href="http://shernshiou.github.com/shernshiou/blog/2012/04/18/life-updates/"/>
+    <link href="http://shernshiou.github.com/blog/2012/04/18/life-updates/"/>
     <updated>2012-04-18T00:00:00+08:00</updated>
-    <id>http://shernshiou.github.com/shernshiou/blog/2012/04/18/life-updates</id>
+    <id>http://shernshiou.github.com/blog/2012/04/18/life-updates</id>
     <content type="html"><![CDATA[<p>Little bit updates since my last post. I am learning a lot lately, knowledge wise and spiritual wise. 
 I think its important for a person to take a look at Maslow’s hierarchy of needs (<a href="http://en.wikipedia.org/wiki/Maslow's_hierarchy_of_needs">http://en.wikipedia.org/wiki/Maslow’s_hierarchy_of_needs</a>). It may or may not be applicable for each individual needs but I think every person have their own hierarchy of needs. Most importantly every needs are built entirely as an hierarchy where the lowest needs always Physiological. Each level of needs depends on their lower level of needs. If one’s fundamental needs cannot be achievable the top most needs collapse too. E.g. you cannot be successful at your work if you have trouble finding your food source and shelter (Physiological needs). On the other hand, life’s goal go hand in hand with your hierarchy of needs. In order to achieve higher goal, certain level of need need to be attain else the physical or mental properties of the person are not on par with the goal set. Take a look at your needs and set goal accordingly to achieve your needs and your future. </p>
 
@@ -147,9 +147,9 @@ I think its important for a person to take a look at Maslow’s hierarchy of nee
   
   <entry>
     <title type="html"><![CDATA[Youtube HTML Client using Backbone.js]]></title>
-    <link href="http://shernshiou.github.com/shernshiou/blog/2012/04/04/youtube-html-client-using-backbone-dot-js/"/>
+    <link href="http://shernshiou.github.com/blog/2012/04/04/youtube-html-client-using-backbone-dot-js/"/>
     <updated>2012-04-04T00:00:00+08:00</updated>
-    <id>http://shernshiou.github.com/shernshiou/blog/2012/04/04/youtube-html-client-using-backbone-dot-js</id>
+    <id>http://shernshiou.github.com/blog/2012/04/04/youtube-html-client-using-backbone-dot-js</id>
     <content type="html"><![CDATA[<p>My first github project</p>
 
 <p>Basically it fetch from youtube data api and populate using Backbone.js</p>
@@ -160,9 +160,9 @@ I think its important for a person to take a look at Maslow’s hierarchy of nee
   
   <entry>
     <title type="html"><![CDATA[Religion and God]]></title>
-    <link href="http://shernshiou.github.com/shernshiou/blog/2012/03/20/religion-and-god/"/>
+    <link href="http://shernshiou.github.com/blog/2012/03/20/religion-and-god/"/>
     <updated>2012-03-20T00:00:00+08:00</updated>
-    <id>http://shernshiou.github.com/shernshiou/blog/2012/03/20/religion-and-god</id>
+    <id>http://shernshiou.github.com/blog/2012/03/20/religion-and-god</id>
     <content type="html"><![CDATA[<p>I often was asked how Malaysian are you when you do not believe at a religion as the first Malaysian Constitution stated ‘Kepercayaan kepada Tuhan’ which roughly translate to ‘Believe in the God’. As a person that cannot understand religion, I do not subscribe to any of them. However throughout the years, from an atheist, slowly I begin to realise there have to be something larger than what we (human) can comprehend. In our daily life, there are mysteries we encountered. The mysteries that we cannot perceive yet it just comes so naturally. Therefore, I realised I need to recogize this element of unknown, element that is watching us everyday and element that is larger than us. Recognizing this element make me curious, make me small and feel belongs.</p>
 
 <p>For me, religion is a medium. It serves well in the past as a part and parcel of human civilization. It teaches us the values and some knowledge when we have no foundation to rationalize. There are those dark ages in human civilization where we are ready to evolve into a larger societies yet values is the barrier. The best method at that time to inculcate the values and knowledge is through religion. Religion uses the power of unknown and fear (God) to strike knowledge to our heart. It serves us well until education and scientific methods teach us how to reason. I believe they has replaced religion to teach us the values and knowledge we need in this era. Who knows one day, some technology might replaced education and scientific method that can bring human to a higher level. But certainly, some parts of religion has obsolete by scientific method. The other havles of religion including moral and values that religion bring us is replaced by education.</p>
@@ -173,36 +173,36 @@ I think its important for a person to take a look at Maslow’s hierarchy of nee
   
   <entry>
     <title type="html"><![CDATA[Spoilt Apple]]></title>
-    <link href="http://shernshiou.github.com/shernshiou/blog/2012/03/18/spoilt-apple/"/>
+    <link href="http://shernshiou.github.com/blog/2012/03/18/spoilt-apple/"/>
     <updated>2012-03-18T00:00:00+08:00</updated>
-    <id>http://shernshiou.github.com/shernshiou/blog/2012/03/18/spoilt-apple</id>
+    <id>http://shernshiou.github.com/blog/2012/03/18/spoilt-apple</id>
     <content type="html"><![CDATA[<p>Human resource is an important role for a company. Their job includes scrutinizing a candidate, hiring an employee or making sure the employee works with the company for the company. An employee can be compared to an apple. It is infectious as the bad bit will go viral affecting the remaining chunk. On the other hand, an employee with good attitude motivates the rest of the colleagues and teammates. It is essential for a leader to not only perform technically but also the attitude that creates positive force field.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Robert Frost's Decision]]></title>
-    <link href="http://shernshiou.github.com/shernshiou/blog/2012/02/27/robert-frosts-decision/"/>
+    <link href="http://shernshiou.github.com/blog/2012/02/27/robert-frosts-decision/"/>
     <updated>2012-02-27T00:00:00+08:00</updated>
-    <id>http://shernshiou.github.com/shernshiou/blog/2012/02/27/robert-frosts-decision</id>
+    <id>http://shernshiou.github.com/blog/2012/02/27/robert-frosts-decision</id>
     <content type="html"><![CDATA[<p>During my secondary school, everyone in the school read a poem by Robert Frost called The Road Not Taken. It questions us to pick a path for your future. It teaches me on being responsible on the decisions. Its has been years after I first encountered this poem, this poem still does not fail to frequent me whenever I am making hard decisions. Dear Robert, did you really sigh when you took the road less taken? Just so you know, I do not think your sigh is a sign of regret. I guess its a human norm. In the end, human is just the greedy bunch. There is another thing I learnt so far. There is a greater power that is not up above but resides within yourself. When the moment comes, the moment that requires your decision, the answer will appear. It comes straight from your heart. No matter how much you wanna reject it, you just cant. Its instinct. Just follow your instinct, believe in yourself, be responsible, the world will be brighter.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Wooooot!]]></title>
-    <link href="http://shernshiou.github.com/shernshiou/blog/2012/02/23/wooooot/"/>
+    <link href="http://shernshiou.github.com/blog/2012/02/23/wooooot/"/>
     <updated>2012-02-23T01:00:00+08:00</updated>
-    <id>http://shernshiou.github.com/shernshiou/blog/2012/02/23/wooooot</id>
+    <id>http://shernshiou.github.com/blog/2012/02/23/wooooot</id>
     <content type="html"><![CDATA[<p>Just found out someone really did read my blog… Maybe I should post more.. :P</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[New Life]]></title>
-    <link href="http://shernshiou.github.com/shernshiou/blog/2011/11/03/new-life/"/>
+    <link href="http://shernshiou.github.com/blog/2011/11/03/new-life/"/>
     <updated>2011-11-03T00:00:00+08:00</updated>
-    <id>http://shernshiou.github.com/shernshiou/blog/2011/11/03/new-life</id>
+    <id>http://shernshiou.github.com/blog/2011/11/03/new-life</id>
     <content type="html"><![CDATA[<p>After a month into my new job, I got my new life.<br />
 Despite the jam, I woke up early to get to my office.<br />
 I learned to code, debug.<br />
@@ -216,9 +216,9 @@ I got to do what I like every seconds. </p>
   
   <entry>
     <title type="html"><![CDATA[QString to Char*]]></title>
-    <link href="http://shernshiou.github.com/shernshiou/blog/2011/10/13/qstring-to-char-star/"/>
+    <link href="http://shernshiou.github.com/blog/2011/10/13/qstring-to-char-star/"/>
     <updated>2011-10-13T00:00:00+08:00</updated>
-    <id>http://shernshiou.github.com/shernshiou/blog/2011/10/13/qstring-to-char-star</id>
+    <id>http://shernshiou.github.com/blog/2011/10/13/qstring-to-char-star</id>
     <content type="html"><![CDATA[<p>Thanks to <a href="http://developer.qt.nokia.com/faq/answer/how_can_i_convert_a_qstring_to_char_and_vice_versa">Qt Forum</a></p>
 
 <p>Below help us to get Char* out from QString and the other way around:</p>
@@ -239,9 +239,9 @@ I got to do what I like every seconds. </p>
   
   <entry>
     <title type="html"><![CDATA[How I Became A Programmer?]]></title>
-    <link href="http://shernshiou.github.com/shernshiou/blog/2011/07/21/how-i-became-a-programmer/"/>
+    <link href="http://shernshiou.github.com/blog/2011/07/21/how-i-became-a-programmer/"/>
     <updated>2011-07-21T00:00:00+08:00</updated>
-    <id>http://shernshiou.github.com/shernshiou/blog/2011/07/21/how-i-became-a-programmer</id>
+    <id>http://shernshiou.github.com/blog/2011/07/21/how-i-became-a-programmer</id>
     <content type="html"><![CDATA[<p>I learnt programming even before I receive my former education in primary school. Even though I did not learn to create a full blown application, but it did teach me problem solving, flowchart and logic programming.</p>
 
 <h3 id="the-turtle">The Turtle</h3>
@@ -270,9 +270,9 @@ I got to do what I like every seconds. </p>
   
   <entry>
     <title type="html"><![CDATA[Teka Teki]]></title>
-    <link href="http://shernshiou.github.com/shernshiou/blog/2011/07/14/teka-teki/"/>
+    <link href="http://shernshiou.github.com/blog/2011/07/14/teka-teki/"/>
     <updated>2011-07-14T00:00:00+08:00</updated>
-    <id>http://shernshiou.github.com/shernshiou/blog/2011/07/14/teka-teki</id>
+    <id>http://shernshiou.github.com/blog/2011/07/14/teka-teki</id>
     <content type="html"><![CDATA[<h3 id="question">Question</h3>
 <p>What does ps3 sets and women’s breasts have in common?</p>
 
@@ -288,9 +288,9 @@ M Bazli B Othman (ECRO/PETH)</p>
   
   <entry>
     <title type="html"><![CDATA[Bersih Really Rally?]]></title>
-    <link href="http://shernshiou.github.com/shernshiou/blog/2011/07/11/bersih-really-rally/"/>
+    <link href="http://shernshiou.github.com/blog/2011/07/11/bersih-really-rally/"/>
     <updated>2011-07-11T00:00:00+08:00</updated>
-    <id>http://shernshiou.github.com/shernshiou/blog/2011/07/11/bersih-really-rally</id>
+    <id>http://shernshiou.github.com/blog/2011/07/11/bersih-really-rally</id>
     <content type="html"><![CDATA[<p>Last Saturday (9 July 2011), Malaysian all over the world came together and march to demand for cleaniness in Electoral. I was in Klang Valley but yet I didn’t join it. For me this march is even bigger than a march itself. Many would think it is a peaceful march for the better future for Malaysia. However, many people joined this rally with different purposes. Each have their own agenda to see them happen. I guess this rally may has strike in the middle how people from various corners want it.</p>
 
 <h3 id="current-government">Current Government</h3>
@@ -311,9 +311,9 @@ M Bazli B Othman (ECRO/PETH)</p>
   
   <entry>
     <title type="html"><![CDATA[Pilihan Raya ke?]]></title>
-    <link href="http://shernshiou.github.com/shernshiou/blog/2011/07/01/pilihan-raya-ke/"/>
+    <link href="http://shernshiou.github.com/blog/2011/07/01/pilihan-raya-ke/"/>
     <updated>2011-07-01T00:00:00+08:00</updated>
-    <id>http://shernshiou.github.com/shernshiou/blog/2011/07/01/pilihan-raya-ke</id>
+    <id>http://shernshiou.github.com/blog/2011/07/01/pilihan-raya-ke</id>
     <content type="html"><![CDATA[<h3 id="scenario">Scenario</h3>
 <p>When they have their passport photo as their profile picture. (Be it Facebook, MSN….)</p>
 
@@ -329,9 +329,9 @@ Mr Ong XXX XXXN</p>
   
   <entry>
     <title type="html"><![CDATA[Installing Boost]]></title>
-    <link href="http://shernshiou.github.com/shernshiou/blog/2011/06/23/installing-boost/"/>
+    <link href="http://shernshiou.github.com/blog/2011/06/23/installing-boost/"/>
     <updated>2011-06-23T00:00:00+08:00</updated>
-    <id>http://shernshiou.github.com/shernshiou/blog/2011/06/23/installing-boost</id>
+    <id>http://shernshiou.github.com/blog/2011/06/23/installing-boost</id>
     <content type="html"><![CDATA[<p>Simple command to install Boost for Ubuntu</p>
 
 <div class="bogus-wrapper"><notextile><figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Research | Shern Shiou]]></title>
-  <link href="http://shernshiou.github.com/shernshiou/blog/categories/research/atom.xml" rel="self"/>
-  <link href="http://shernshiou.github.com/shernshiou/"/>
-  <updated>2012-10-10T21:15:01+08:00</updated>
-  <id>http://shernshiou.github.com/shernshiou/</id>
+  <link href="http://shernshiou.github.com/blog/categories/research/atom.xml" rel="self"/>
+  <link href="http://shernshiou.github.com/"/>
+  <updated>2012-10-10T21:18:35+08:00</updated>
+  <id>http://shernshiou.github.com/</id>
   <author>
     <name><![CDATA[shernshiou]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Information Theory on Images]]></title>
-    <link href="http://shernshiou.github.com/shernshiou/blog/2011/05/26/information-theory-on-images/"/>
+    <link href="http://shernshiou.github.com/blog/2011/05/26/information-theory-on-images/"/>
     <updated>2011-05-26T00:00:00+08:00</updated>
-    <id>http://shernshiou.github.com/shernshiou/blog/2011/05/26/information-theory-on-images</id>
+    <id>http://shernshiou.github.com/blog/2011/05/26/information-theory-on-images</id>
     <content type="html"><![CDATA[<p>In the past, I have always encountered these questions while doing my research. To truly emulate human vision perception in computer vision, I need to understand how the mechanism works. These questions form the fundamental mechanism of human vision. Therefore, I decided to compute several images to proof my believe. My main hypothesis is human vision is represented in HSV colour model rather than RGB colour model. To proof this, I will be using basic Information Theory to compute the information composition in an single image both RGB and HSV.</p>
 
 <h3 id="information-theory">Information Theory</h3>

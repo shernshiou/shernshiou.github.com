@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Computing | Shern Shiou]]></title>
-  <link href="http://shernshiou.github.com/shernshiou/blog/categories/computing/atom.xml" rel="self"/>
-  <link href="http://shernshiou.github.com/shernshiou/"/>
-  <updated>2012-10-10T21:15:01+08:00</updated>
-  <id>http://shernshiou.github.com/shernshiou/</id>
+  <link href="http://shernshiou.github.com/blog/categories/computing/atom.xml" rel="self"/>
+  <link href="http://shernshiou.github.com/"/>
+  <updated>2012-10-10T21:18:35+08:00</updated>
+  <id>http://shernshiou.github.com/</id>
   <author>
     <name><![CDATA[shernshiou]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Information Theory on Images]]></title>
-    <link href="http://shernshiou.github.com/shernshiou/blog/2011/05/26/information-theory-on-images/"/>
+    <link href="http://shernshiou.github.com/blog/2011/05/26/information-theory-on-images/"/>
     <updated>2011-05-26T00:00:00+08:00</updated>
-    <id>http://shernshiou.github.com/shernshiou/blog/2011/05/26/information-theory-on-images</id>
+    <id>http://shernshiou.github.com/blog/2011/05/26/information-theory-on-images</id>
     <content type="html"><![CDATA[<p>In the past, I have always encountered these questions while doing my research. To truly emulate human vision perception in computer vision, I need to understand how the mechanism works. These questions form the fundamental mechanism of human vision. Therefore, I decided to compute several images to proof my believe. My main hypothesis is human vision is represented in HSV colour model rather than RGB colour model. To proof this, I will be using basic Information Theory to compute the information composition in an single image both RGB and HSV.</p>
 
 <h3 id="information-theory">Information Theory</h3>
@@ -56,9 +56,9 @@ As expected RGB plane has pretty similar entropy in every images. If one of the 
   
   <entry>
     <title type="html"><![CDATA[Data Engineering]]></title>
-    <link href="http://shernshiou.github.com/shernshiou/blog/2011/05/11/data-engineering/"/>
+    <link href="http://shernshiou.github.com/blog/2011/05/11/data-engineering/"/>
     <updated>2011-05-11T00:00:00+08:00</updated>
-    <id>http://shernshiou.github.com/shernshiou/blog/2011/05/11/data-engineering</id>
+    <id>http://shernshiou.github.com/blog/2011/05/11/data-engineering</id>
     <content type="html"><![CDATA[<p>Since the invention of computing devices, we have seen numerous data explosions. Reasons? Storage devices are getting cheaper but the storage ability is growing. It is now easier to share information especially through the cloud. Connectivity between human and non-human became more robust and sophisticated. Devices are made widely available. But there is a big problem here. Although we have expected the growth of data exponentially, but there are little ways developed for us to manage and fully make used of the data available for the greater benefit.</p>
 
 <p><img class="center" src="http://farm6.static.flickr.com/5023/5693449522_57353dd78a_o.png" width="1086" height="769" title="Bin Laden death diaspora by SocialFlow" ></p>

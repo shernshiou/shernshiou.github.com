@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Tech | Shern Shiou]]></title>
-  <link href="http://shernshiou.github.com/shernshiou/blog/categories/tech/atom.xml" rel="self"/>
-  <link href="http://shernshiou.github.com/shernshiou/"/>
-  <updated>2012-10-10T21:15:01+08:00</updated>
-  <id>http://shernshiou.github.com/shernshiou/</id>
+  <link href="http://shernshiou.github.com/blog/categories/tech/atom.xml" rel="self"/>
+  <link href="http://shernshiou.github.com/"/>
+  <updated>2012-10-10T21:18:35+08:00</updated>
+  <id>http://shernshiou.github.com/</id>
   <author>
     <name><![CDATA[shernshiou]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Data Engineering]]></title>
-    <link href="http://shernshiou.github.com/shernshiou/blog/2011/05/11/data-engineering/"/>
+    <link href="http://shernshiou.github.com/blog/2011/05/11/data-engineering/"/>
     <updated>2011-05-11T00:00:00+08:00</updated>
-    <id>http://shernshiou.github.com/shernshiou/blog/2011/05/11/data-engineering</id>
+    <id>http://shernshiou.github.com/blog/2011/05/11/data-engineering</id>
     <content type="html"><![CDATA[<p>Since the invention of computing devices, we have seen numerous data explosions. Reasons? Storage devices are getting cheaper but the storage ability is growing. It is now easier to share information especially through the cloud. Connectivity between human and non-human became more robust and sophisticated. Devices are made widely available. But there is a big problem here. Although we have expected the growth of data exponentially, but there are little ways developed for us to manage and fully make used of the data available for the greater benefit.</p>
 
 <p><img class="center" src="http://farm6.static.flickr.com/5023/5693449522_57353dd78a_o.png" width="1086" height="769" title="Bin Laden death diaspora by SocialFlow" ></p>
@@ -31,9 +31,9 @@
   
   <entry>
     <title type="html"><![CDATA[Keeping yourself up to date]]></title>
-    <link href="http://shernshiou.github.com/shernshiou/blog/2011/04/20/keeping-yourself-up-to-date/"/>
+    <link href="http://shernshiou.github.com/blog/2011/04/20/keeping-yourself-up-to-date/"/>
     <updated>2011-04-20T00:00:00+08:00</updated>
-    <id>http://shernshiou.github.com/shernshiou/blog/2011/04/20/keeping-yourself-up-to-date</id>
+    <id>http://shernshiou.github.com/blog/2011/04/20/keeping-yourself-up-to-date</id>
     <content type="html"><![CDATA[<p>I always believe you need to keep yourself abreast with new technologies if your day in and day out activities have to do with computer. You cannot runaway from learning new stuffs everyday if you would like to maintain your competitive in your field. This applies especially to those who majored in computing field be it Computer Science or Information Technology. Self learning is the no. 1 skill needed followed by Googl-ing. If you resist to change, you might be the next dinosaur waiting to be replaced.
 Luckily, by taking advantage of the Internet, the people who work side by side with computers are able to keep themselves updated by using the tools online.
 ## Social Media

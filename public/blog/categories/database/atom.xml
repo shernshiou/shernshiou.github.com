@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Database | Shern Shiou]]></title>
-  <link href="http://shernshiou.github.com/shernshiou/blog/categories/database/atom.xml" rel="self"/>
-  <link href="http://shernshiou.github.com/shernshiou/"/>
-  <updated>2012-10-10T21:15:01+08:00</updated>
-  <id>http://shernshiou.github.com/shernshiou/</id>
+  <link href="http://shernshiou.github.com/blog/categories/database/atom.xml" rel="self"/>
+  <link href="http://shernshiou.github.com/"/>
+  <updated>2012-10-10T21:18:35+08:00</updated>
+  <id>http://shernshiou.github.com/</id>
   <author>
     <name><![CDATA[shernshiou]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Check Duplicate in MySQL]]></title>
-    <link href="http://shernshiou.github.com/shernshiou/blog/2011/06/21/check-duplicate-in-mysql/"/>
+    <link href="http://shernshiou.github.com/blog/2011/06/21/check-duplicate-in-mysql/"/>
     <updated>2011-06-21T00:00:00+08:00</updated>
-    <id>http://shernshiou.github.com/shernshiou/blog/2011/06/21/check-duplicate-in-mysql</id>
+    <id>http://shernshiou.github.com/blog/2011/06/21/check-duplicate-in-mysql</id>
     <content type="html"><![CDATA[<p>Simple snippet:</p>
 
 <p><code>sql SQL to check duplicate entry
