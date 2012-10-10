@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Database | Shern Shiou]]></title>
+  <link href="http://shernshiou.github.com/blog/categories/database/atom.xml" rel="self"/>
+  <link href="http://shernshiou.github.com/"/>
+  <updated>2012-10-10T21:18:35+08:00</updated>
+  <id>http://shernshiou.github.com/</id>
+  <author>
+    <name><![CDATA[shernshiou]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Check Duplicate in MySQL]]></title>
+    <link href="http://shernshiou.github.com/blog/2011/06/21/check-duplicate-in-mysql/"/>
+    <updated>2011-06-21T00:00:00+08:00</updated>
+    <id>http://shernshiou.github.com/blog/2011/06/21/check-duplicate-in-mysql</id>
+    <content type="html"><![CDATA[<p>Simple snippet:</p>
+
+<p><code>sql SQL to check duplicate entry
+SELECT `name`, COUNT(`name`) as cnt
+FROM `members`
+GROUP BY `name`
+HAVING cnt &gt; 1
+ORDER by cnt;
+</code></p>
+]]></content>
+  </entry>
+  
+</feed>

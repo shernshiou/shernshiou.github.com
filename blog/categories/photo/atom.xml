@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Photo | Shern Shiou]]></title>
+  <link href="http://shernshiou.github.com/blog/categories/photo/atom.xml" rel="self"/>
+  <link href="http://shernshiou.github.com/"/>
+  <updated>2012-10-10T21:18:35+08:00</updated>
+  <id>http://shernshiou.github.com/</id>
+  <author>
+    <name><![CDATA[shernshiou]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Cuti-cuti Malaysia]]></title>
+    <link href="http://shernshiou.github.com/blog/2011/05/09/cuti-cuti-malaysia/"/>
+    <updated>2011-05-09T00:00:00+08:00</updated>
+    <id>http://shernshiou.github.com/blog/2011/05/09/cuti-cuti-malaysia</id>
+    <content type="html"><![CDATA[<p><img class="center" src="/images/gallery/redang.jpg" width="480" height="270" title="Pulau Redang" >
+Can anyone identify where is this pretty beach?</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Crap Food]]></title>
+    <link href="http://shernshiou.github.com/blog/2011/04/25/crap-food/"/>
+    <updated>2011-04-25T00:00:00+08:00</updated>
+    <id>http://shernshiou.github.com/blog/2011/04/25/crap-food</id>
+    <content type="html"><![CDATA[<p><img class="center" src="/images/gallery/crap_food.jpg" width="640" height="480" title="Huge Crap Seafood Restaurent" ></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[B417]]></title>
+    <link href="http://shernshiou.github.com/blog/2011/04/18/b417/"/>
+    <updated>2011-04-18T00:00:00+08:00</updated>
+    <id>http://shernshiou.github.com/blog/2011/04/18/b417</id>
+    <content type="html"><![CDATA[<p><img class="center" src="/images/gallery/b417.jpg" width="640" height="480" title="PRSB B417" ></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[IKEA]]></title>
+    <link href="http://shernshiou.github.com/blog/2011/04/14/ikea/"/>
+    <updated>2011-04-14T00:00:00+08:00</updated>
+    <id>http://shernshiou.github.com/blog/2011/04/14/ikea</id>
+    <content type="html"><![CDATA[<p><img class="center" src="/images/gallery/ikea.jpg" width="640" height="480" title="Ikea" ></p>
+]]></content>
+  </entry>
+  
+</feed>

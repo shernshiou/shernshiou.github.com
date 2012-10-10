@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Job | Shern Shiou]]></title>
+  <link href="http://shernshiou.github.com/blog/categories/job/atom.xml" rel="self"/>
+  <link href="http://shernshiou.github.com/"/>
+  <updated>2012-10-10T21:18:35+08:00</updated>
+  <id>http://shernshiou.github.com/</id>
+  <author>
+    <name><![CDATA[shernshiou]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Life as a Code Surgeon]]></title>
+    <link href="http://shernshiou.github.com/blog/2012/07/05/life-as-a-code-surgeon/"/>
+    <updated>2012-07-05T00:00:00+08:00</updated>
+    <id>http://shernshiou.github.com/blog/2012/07/05/life-as-a-code-surgeon</id>
+    <content type="html"><![CDATA[<p>From past few weeks till now, everyday moves fast. Been through ups and downs. Most of the time, it was stressful. For the first time, coding felt like an operation. When I was looking at the IDE, my surrounding resembles an operation room like the one in Grey’s Anatomy. My teammates left and right were like the other doctors giving me advices here and there. While I am the one holding my mouse like scalpel and executing the surgery by typing on my keyboard. This time I am flying solo. My mission now is to replace the old organ with the new and improved organ. The operation was hard. It went bitter when decommissioning the old component went hay-wire. Some tightly coupled segments misbehaved when I tried to pull out the old component. In order for the new component to work well, I need to fix the other parts as well. Sometimes when I was fixing other parts, I encountered tumour that was preventing the new component to slot in. The tumour therefore need to be removed. My nightmare came when my patient when into coma due to code haemorrhage. The memory keep bleeding, I need to open out the body and detect the wound. I hope everything will be fine. The operation is still undergoing but it is almost completed. I just wish my patient will wake up tomorrow, living the life like a normal person with an improved organ. </p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Spoilt Apple]]></title>
+    <link href="http://shernshiou.github.com/blog/2012/03/18/spoilt-apple/"/>
+    <updated>2012-03-18T00:00:00+08:00</updated>
+    <id>http://shernshiou.github.com/blog/2012/03/18/spoilt-apple</id>
+    <content type="html"><![CDATA[<p>Human resource is an important role for a company. Their job includes scrutinizing a candidate, hiring an employee or making sure the employee works with the company for the company. An employee can be compared to an apple. It is infectious as the bad bit will go viral affecting the remaining chunk. On the other hand, an employee with good attitude motivates the rest of the colleagues and teammates. It is essential for a leader to not only perform technically but also the attitude that creates positive force field.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[New Life]]></title>
+    <link href="http://shernshiou.github.com/blog/2011/11/03/new-life/"/>
+    <updated>2011-11-03T00:00:00+08:00</updated>
+    <id>http://shernshiou.github.com/blog/2011/11/03/new-life</id>
+    <content type="html"><![CDATA[<p>After a month into my new job, I got my new life.<br />
+Despite the jam, I woke up early to get to my office.<br />
+I learned to code, debug.<br />
+The best part of the day when you get to type commit into version control.<br />
+Back home, I cook my own dinner.<br />
+Attend online lecture after that or continue on my journal paper.<br />
+Before I sleep, I read a few chapters.<br />
+I got to do what I like every seconds. </p>
+]]></content>
+  </entry>
+  
+</feed>

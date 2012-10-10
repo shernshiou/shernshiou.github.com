@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Code | Shern Shiou]]></title>
+  <link href="http://shernshiou.github.com/blog/categories/code/atom.xml" rel="self"/>
+  <link href="http://shernshiou.github.com/"/>
+  <updated>2012-10-10T21:18:35+08:00</updated>
+  <id>http://shernshiou.github.com/</id>
+  <author>
+    <name><![CDATA[shernshiou]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Here Comes A New Challenger!]]></title>
+    <link href="http://shernshiou.github.com/blog/2012/05/03/here-comes-a-new-challenger/"/>
+    <updated>2012-05-03T00:00:00+08:00</updated>
+    <id>http://shernshiou.github.com/blog/2012/05/03/here-comes-a-new-challenger</id>
+    <content type="html"><![CDATA[<p>Two days ago at Orlando, Florida, RIM has just announce their upcoming product along with the spanking new Blackberry 10 (BBX). I am biased as I am working with BBX lately, I found that this announcement welcoming. Not mentioning the latest mobile gadget gimmickry, I am more intrigued on the development on BBX natively. Up until now only iOS officially support app development natively using Objective-C. As for the other platform, Android support native development with NDK (but its awfully ugly when you need to integrate NDK with Java through JNDI). As for Windows Phone 7, you all the codes are running on .NET VM. </p>
+
+<p>I think BBX might change the game here with its Native development package. With it, I see many advantages (let alone the speed native can provide) compared not only with Android and WP7 but also iOS.</p>
+
+<ol>
+  <li>Low learning gap with C++</li>
+  <li>Great utility with Qt (Yes, BBX native is backed by Qt)</li>
+  <li>Lots of supported opensource project like OpenAL</li>
+  <li>With Cascades (and QML from Qt), UI is easier to code and pretty too!</li>
+</ol>
+
+<p>I cant wait to get my hand on of those device.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Youtube HTML Client using Backbone.js]]></title>
+    <link href="http://shernshiou.github.com/blog/2012/04/04/youtube-html-client-using-backbone-dot-js/"/>
+    <updated>2012-04-04T00:00:00+08:00</updated>
+    <id>http://shernshiou.github.com/blog/2012/04/04/youtube-html-client-using-backbone-dot-js</id>
+    <content type="html"><![CDATA[<p>My first github project</p>
+
+<p>Basically it fetch from youtube data api and populate using Backbone.js</p>
+
+<p>Head over <a href="https://github.com/shernshiou/youtube-backbone">here</a> for the source. Fork and enjoy!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[QString to Char*]]></title>
+    <link href="http://shernshiou.github.com/blog/2011/10/13/qstring-to-char-star/"/>
+    <updated>2011-10-13T00:00:00+08:00</updated>
+    <id>http://shernshiou.github.com/blog/2011/10/13/qstring-to-char-star</id>
+    <content type="html"><![CDATA[<p>Thanks to <a href="http://developer.qt.nokia.com/faq/answer/how_can_i_convert_a_qstring_to_char_and_vice_versa">Qt Forum</a></p>
+
+<p>Below help us to get Char* out from QString and the other way around:</p>
+
+<p><code>c++ Convert QString to Char*
+QString inputString = "hello";
+QByteArray byteArray = inputString.toUtf8();
+const char* cString = byteArray.constData();
+</code></p>
+
+<p><code>c++ Convert Char* to QString
+QString qString2 = QString::fromUtf8(cString);
+</code></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Installing Boost]]></title>
+    <link href="http://shernshiou.github.com/blog/2011/06/23/installing-boost/"/>
+    <updated>2011-06-23T00:00:00+08:00</updated>
+    <id>http://shernshiou.github.com/blog/2011/06/23/installing-boost</id>
+    <content type="html"><![CDATA[<p>Simple command to install Boost for Ubuntu</p>
+
+<p><code>
+sudo apt-get install libboost-dev libboost-doc
+</code></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Check Duplicate in MySQL]]></title>
+    <link href="http://shernshiou.github.com/blog/2011/06/21/check-duplicate-in-mysql/"/>
+    <updated>2011-06-21T00:00:00+08:00</updated>
+    <id>http://shernshiou.github.com/blog/2011/06/21/check-duplicate-in-mysql</id>
+    <content type="html"><![CDATA[<p>Simple snippet:</p>
+
+<p><code>sql SQL to check duplicate entry
+SELECT `name`, COUNT(`name`) as cnt
+FROM `members`
+GROUP BY `name`
+HAVING cnt &gt; 1
+ORDER by cnt;
+</code></p>
+]]></content>
+  </entry>
+  
+</feed>

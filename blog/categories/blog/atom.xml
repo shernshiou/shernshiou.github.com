@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Blog | Shern Shiou]]></title>
+  <link href="http://shernshiou.github.com/blog/categories/blog/atom.xml" rel="self"/>
+  <link href="http://shernshiou.github.com/"/>
+  <updated>2012-10-10T21:18:35+08:00</updated>
+  <id>http://shernshiou.github.com/</id>
+  <author>
+    <name><![CDATA[shernshiou]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Porting to Octopress]]></title>
+    <link href="http://shernshiou.github.com/blog/2012/08/21/porting-to-octopress/"/>
+    <updated>2012-08-21T11:39:00+08:00</updated>
+    <id>http://shernshiou.github.com/blog/2012/08/21/porting-to-octopress</id>
+    <content type="html"><![CDATA[<p>I have slowed down my updates on my blog these months. Lately, I spend my time travelling so do my works. The other reason behind the reduced of new posts because I am considering alternative platform to Posterous. Some of you might know that Posterous is winding down after the acquisition by Twitter. After several trials, I’ve decided to settle with Octopress hosted with Heroku due to several reasons:-</p>
+
+<ol>
+  <li>Complete mirror of local copy</li>
+  <li>Changes are tracked with Git</li>
+  <li>Markdown</li>
+  <li>Code snippet with Pygments (find some of them at <a href="/blog/categories/code/">Code Categories</a>)</li>
+  <li>Awesome mobile theme</li>
+</ol>
+
+<p>But this platform has several downside compared to Posterous</p>
+
+<ol>
+  <li>Lack of other ways of posting (e.g. email, mobile)</li>
+  <li>Hard to embed without writing some changes</li>
+  <li>I’m not familiar with Ruby</li>
+  <li>Size matters at Heroku (for free hosting)</li>
+</ol>
+
+<p>I’m at about 80% of the total progress because I am still finding ways to include more images (by including other hosting) and porting embedded IFrame. One custom changes I’ve made on this blog is the ability to display LaTeX Math Equation with Kramdown (thanks to <a href="http://greglus.com/blog/2011/11/29/integrate-MathJax-LaTeX-and-MathML-Markup-in-Octopress/">Greglus</a>). </p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Switch]]></title>
+    <link href="http://shernshiou.github.com/blog/2012/04/25/switch/"/>
+    <updated>2012-04-25T00:00:00+08:00</updated>
+    <id>http://shernshiou.github.com/blog/2012/04/25/switch</id>
+    <content type="html"><![CDATA[<p>I am considering switching from Posterous to Tumblr because of recent acquisition of Posterous by Twitter.</p>
+
+<blockquote>
+  <p>Apparently, I have decided to switch to Octopress :) 2012-08-20</p>
+</blockquote>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Wooooot!]]></title>
+    <link href="http://shernshiou.github.com/blog/2012/02/23/wooooot/"/>
+    <updated>2012-02-23T01:00:00+08:00</updated>
+    <id>http://shernshiou.github.com/blog/2012/02/23/wooooot</id>
+    <content type="html"><![CDATA[<p>Just found out someone really did read my blog… Maybe I should post more.. :P</p>
+]]></content>
+  </entry>
+  
+</feed>
