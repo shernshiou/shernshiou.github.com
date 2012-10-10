@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: App | Shern Shiou]]></title>
-  <link href="http://shernshiou.github.com/blog/blog/categories/app/atom.xml" rel="self"/>
-  <link href="http://shernshiou.github.com/blog/"/>
-  <updated>2012-10-10T20:45:06+08:00</updated>
-  <id>http://shernshiou.github.com/blog/</id>
+  <link href="http://shernshiou.github.com/shernshiou/blog/categories/app/atom.xml" rel="self"/>
+  <link href="http://shernshiou.github.com/shernshiou/"/>
+  <updated>2012-10-10T21:15:01+08:00</updated>
+  <id>http://shernshiou.github.com/shernshiou/</id>
   <author>
     <name><![CDATA[shernshiou]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[QString to Char*]]></title>
-    <link href="http://shernshiou.github.com/blog/blog/2011/10/13/qstring-to-char-star/"/>
+    <link href="http://shernshiou.github.com/shernshiou/blog/2011/10/13/qstring-to-char-star/"/>
     <updated>2011-10-13T00:00:00+08:00</updated>
-    <id>http://shernshiou.github.com/blog/blog/2011/10/13/qstring-to-char-star</id>
+    <id>http://shernshiou.github.com/shernshiou/blog/2011/10/13/qstring-to-char-star</id>
     <content type="html"><![CDATA[<p>Thanks to <a href="http://developer.qt.nokia.com/faq/answer/how_can_i_convert_a_qstring_to_char_and_vice_versa">Qt Forum</a></p>
 
 <p>Below help us to get Char* out from QString and the other way around:</p>

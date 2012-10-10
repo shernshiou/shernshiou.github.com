@@ -1,135 +1,149 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://shernshiou.github.com/blog/blog/2011/04/14/ikea/</loc>
-        <lastmod>2012-10-10T20:02:41+08:00</lastmod>
+        <loc>http://shernshiou.github.com/shernshiou/blog/2011/04/14/ikea/</loc>
+        <lastmod>2012-10-10T20:54:25+08:00</lastmod>
     </url>
     <url>
-        <loc>http://shernshiou.github.com/blog/blog/2011/04/18/b417/</loc>
-        <lastmod>2012-10-10T20:02:41+08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://shernshiou.github.com/blog/blog/2011/04/20/keeping-yourself-up-to-date/</loc>
-        <lastmod>2012-10-10T20:02:41+08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://shernshiou.github.com/blog/blog/2011/04/25/crap-food/</loc>
-        <lastmod>2012-10-10T20:02:41+08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://shernshiou.github.com/blog/blog/2011/05/09/cuti-cuti-malaysia/</loc>
-        <lastmod>2012-10-10T20:02:41+08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://shernshiou.github.com/blog/blog/2011/05/11/data-engineering/</loc>
-        <lastmod>2012-10-10T20:02:41+08:00</lastmod>
+        <loc>http://shernshiou.github.com/shernshiou/blog/2011/04/18/b417/</loc>
+        <lastmod>2012-10-10T20:54:25+08:00</lastmod>
     </url>
     <url>
         <loc>
-            http://shernshiou.github.com/blog/blog/2011/05/16/css3-gradient-and-transparency/
+            http://shernshiou.github.com/shernshiou/blog/2011/04/20/keeping-yourself-up-to-date/
         </loc>
-        <lastmod>2012-10-10T20:02:41+08:00</lastmod>
+        <lastmod>2012-10-10T20:54:25+08:00</lastmod>
     </url>
     <url>
-        <loc>http://shernshiou.github.com/blog/blog/2011/05/26/information-theory-on-images/</loc>
-        <lastmod>2012-10-10T20:02:41+08:00</lastmod>
+        <loc>http://shernshiou.github.com/shernshiou/blog/2011/04/25/crap-food/</loc>
+        <lastmod>2012-10-10T20:54:25+08:00</lastmod>
     </url>
     <url>
-        <loc>http://shernshiou.github.com/blog/blog/2011/06/08/level-of-desperation/</loc>
-        <lastmod>2012-10-10T20:02:41+08:00</lastmod>
+        <loc>http://shernshiou.github.com/shernshiou/blog/2011/05/09/cuti-cuti-malaysia/</loc>
+        <lastmod>2012-10-10T20:54:25+08:00</lastmod>
     </url>
     <url>
-        <loc>http://shernshiou.github.com/blog/blog/2011/06/21/check-duplicate-in-mysql/</loc>
-        <lastmod>2012-10-10T20:02:41+08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://shernshiou.github.com/blog/blog/2011/06/23/installing-boost/</loc>
-        <lastmod>2012-10-10T20:02:41+08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://shernshiou.github.com/blog/blog/2011/07/01/pilihan-raya-ke/</loc>
-        <lastmod>2012-10-10T20:02:41+08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://shernshiou.github.com/blog/blog/2011/07/11/bersih-really-rally/</loc>
-        <lastmod>2012-10-10T20:02:41+08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://shernshiou.github.com/blog/blog/2011/07/14/teka-teki/</loc>
-        <lastmod>2012-10-10T20:02:41+08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://shernshiou.github.com/blog/blog/2011/07/21/how-i-became-a-programmer/</loc>
-        <lastmod>2012-10-10T20:02:41+08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://shernshiou.github.com/blog/blog/2011/10/13/qstring-to-char-star/</loc>
-        <lastmod>2012-10-10T20:02:41+08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://shernshiou.github.com/blog/blog/2011/11/03/new-life/</loc>
-        <lastmod>2012-10-10T20:02:41+08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://shernshiou.github.com/blog/blog/2012/02/23/wooooot/</loc>
-        <lastmod>2012-10-10T20:02:41+08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://shernshiou.github.com/blog/blog/2012/02/27/robert-frosts-decision/</loc>
-        <lastmod>2012-10-10T20:02:41+08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://shernshiou.github.com/blog/blog/2012/03/18/spoilt-apple/</loc>
-        <lastmod>2012-10-10T20:02:41+08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://shernshiou.github.com/blog/blog/2012/03/20/religion-and-god/</loc>
-        <lastmod>2012-10-10T20:02:41+08:00</lastmod>
+        <loc>http://shernshiou.github.com/shernshiou/blog/2011/05/11/data-engineering/</loc>
+        <lastmod>2012-10-10T20:54:25+08:00</lastmod>
     </url>
     <url>
         <loc>
-            http://shernshiou.github.com/blog/blog/2012/04/04/youtube-html-client-using-backbone-dot-js/
+            http://shernshiou.github.com/shernshiou/blog/2011/05/16/css3-gradient-and-transparency/
         </loc>
-        <lastmod>2012-10-10T20:02:41+08:00</lastmod>
+        <lastmod>2012-10-10T20:54:25+08:00</lastmod>
     </url>
     <url>
-        <loc>http://shernshiou.github.com/blog/blog/2012/04/18/life-updates/</loc>
-        <lastmod>2012-10-10T20:02:41+08:00</lastmod>
+        <loc>
+            http://shernshiou.github.com/shernshiou/blog/2011/05/26/information-theory-on-images/
+        </loc>
+        <lastmod>2012-10-10T20:54:25+08:00</lastmod>
     </url>
     <url>
-        <loc>http://shernshiou.github.com/blog/blog/2012/04/25/switch/</loc>
-        <lastmod>2012-10-10T20:02:41+08:00</lastmod>
+        <loc>http://shernshiou.github.com/shernshiou/blog/2011/06/08/level-of-desperation/</loc>
+        <lastmod>2012-10-10T20:54:25+08:00</lastmod>
     </url>
     <url>
-        <loc>http://shernshiou.github.com/blog/blog/2012/05/03/here-comes-a-new-challenger/</loc>
-        <lastmod>2012-10-10T20:02:41+08:00</lastmod>
+        <loc>
+            http://shernshiou.github.com/shernshiou/blog/2011/06/21/check-duplicate-in-mysql/
+        </loc>
+        <lastmod>2012-10-10T20:54:25+08:00</lastmod>
     </url>
     <url>
-        <loc>http://shernshiou.github.com/blog/blog/2012/05/08/population-growth/</loc>
-        <lastmod>2012-10-10T20:02:41+08:00</lastmod>
+        <loc>http://shernshiou.github.com/shernshiou/blog/2011/06/23/installing-boost/</loc>
+        <lastmod>2012-10-10T20:54:25+08:00</lastmod>
     </url>
     <url>
-        <loc>http://shernshiou.github.com/blog/blog/2012/06/17/hello/</loc>
-        <lastmod>2012-10-10T20:02:41+08:00</lastmod>
+        <loc>http://shernshiou.github.com/shernshiou/blog/2011/07/01/pilihan-raya-ke/</loc>
+        <lastmod>2012-10-10T20:54:25+08:00</lastmod>
     </url>
     <url>
-        <loc>http://shernshiou.github.com/blog/blog/2012/07/05/life-as-a-code-surgeon/</loc>
-        <lastmod>2012-10-10T20:02:41+08:00</lastmod>
+        <loc>http://shernshiou.github.com/shernshiou/blog/2011/07/11/bersih-really-rally/</loc>
+        <lastmod>2012-10-10T20:54:25+08:00</lastmod>
     </url>
     <url>
-        <loc>http://shernshiou.github.com/blog/blog/2012/08/21/porting-to-octopress/</loc>
-        <lastmod>2012-10-10T20:02:41+08:00</lastmod>
+        <loc>http://shernshiou.github.com/shernshiou/blog/2011/07/14/teka-teki/</loc>
+        <lastmod>2012-10-10T20:54:25+08:00</lastmod>
     </url>
     <url>
-        <loc>http://shernshiou.github.com/blog/blog/archives/</loc>
-        <lastmod>2012-10-10T20:02:41+08:00</lastmod>
+        <loc>
+            http://shernshiou.github.com/shernshiou/blog/2011/07/21/how-i-became-a-programmer/
+        </loc>
+        <lastmod>2012-10-10T20:54:25+08:00</lastmod>
     </url>
     <url>
-        <loc>http://shernshiou.github.com/blog/who-am-i/</loc>
-        <lastmod>2012-10-10T20:02:41+08:00</lastmod>
+        <loc>http://shernshiou.github.com/shernshiou/blog/2011/10/13/qstring-to-char-star/</loc>
+        <lastmod>2012-10-10T20:54:25+08:00</lastmod>
     </url>
     <url>
-        <loc>http://shernshiou.github.com/blog/</loc>
-        <lastmod>2012-10-10T20:02:41+08:00</lastmod>
+        <loc>http://shernshiou.github.com/shernshiou/blog/2011/11/03/new-life/</loc>
+        <lastmod>2012-10-10T20:54:25+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://shernshiou.github.com/shernshiou/blog/2012/02/23/wooooot/</loc>
+        <lastmod>2012-10-10T20:54:25+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://shernshiou.github.com/shernshiou/blog/2012/02/27/robert-frosts-decision/</loc>
+        <lastmod>2012-10-10T20:54:25+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://shernshiou.github.com/shernshiou/blog/2012/03/18/spoilt-apple/</loc>
+        <lastmod>2012-10-10T20:54:25+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://shernshiou.github.com/shernshiou/blog/2012/03/20/religion-and-god/</loc>
+        <lastmod>2012-10-10T20:54:25+08:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://shernshiou.github.com/shernshiou/blog/2012/04/04/youtube-html-client-using-backbone-dot-js/
+        </loc>
+        <lastmod>2012-10-10T20:54:25+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://shernshiou.github.com/shernshiou/blog/2012/04/18/life-updates/</loc>
+        <lastmod>2012-10-10T20:54:25+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://shernshiou.github.com/shernshiou/blog/2012/04/25/switch/</loc>
+        <lastmod>2012-10-10T20:54:25+08:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://shernshiou.github.com/shernshiou/blog/2012/05/03/here-comes-a-new-challenger/
+        </loc>
+        <lastmod>2012-10-10T20:54:25+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://shernshiou.github.com/shernshiou/blog/2012/05/08/population-growth/</loc>
+        <lastmod>2012-10-10T20:54:25+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://shernshiou.github.com/shernshiou/blog/2012/06/17/hello/</loc>
+        <lastmod>2012-10-10T20:54:25+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://shernshiou.github.com/shernshiou/blog/2012/07/05/life-as-a-code-surgeon/</loc>
+        <lastmod>2012-10-10T20:54:25+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://shernshiou.github.com/shernshiou/blog/2012/08/21/porting-to-octopress/</loc>
+        <lastmod>2012-10-10T20:54:25+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://shernshiou.github.com/shernshiou/blog/2012/10/10/programmers-negativity/</loc>
+        <lastmod>2012-10-10T20:54:48+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://shernshiou.github.com/shernshiou/blog/archives/</loc>
+        <lastmod>2012-10-10T20:54:48+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://shernshiou.github.com/shernshiou/who-am-i/</loc>
+        <lastmod>2012-10-10T20:54:25+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://shernshiou.github.com/shernshiou/</loc>
+        <lastmod>2012-10-10T20:54:48+08:00</lastmod>
     </url>
 </urlset>

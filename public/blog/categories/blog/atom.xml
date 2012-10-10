@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Blog | Shern Shiou]]></title>
-  <link href="http://shernshiou.github.com/blog/blog/categories/blog/atom.xml" rel="self"/>
-  <link href="http://shernshiou.github.com/blog/"/>
-  <updated>2012-10-10T20:45:06+08:00</updated>
-  <id>http://shernshiou.github.com/blog/</id>
+  <link href="http://shernshiou.github.com/shernshiou/blog/categories/blog/atom.xml" rel="self"/>
+  <link href="http://shernshiou.github.com/shernshiou/"/>
+  <updated>2012-10-10T21:15:01+08:00</updated>
+  <id>http://shernshiou.github.com/shernshiou/</id>
   <author>
     <name><![CDATA[shernshiou]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Porting to Octopress]]></title>
-    <link href="http://shernshiou.github.com/blog/blog/2012/08/21/porting-to-octopress/"/>
+    <link href="http://shernshiou.github.com/shernshiou/blog/2012/08/21/porting-to-octopress/"/>
     <updated>2012-08-21T11:39:00+08:00</updated>
-    <id>http://shernshiou.github.com/blog/blog/2012/08/21/porting-to-octopress</id>
+    <id>http://shernshiou.github.com/shernshiou/blog/2012/08/21/porting-to-octopress</id>
     <content type="html"><![CDATA[<p>I have slowed down my updates on my blog these months. Lately, I spend my time travelling so do my works. The other reason behind the reduced of new posts because I am considering alternative platform to Posterous. Some of you might know that Posterous is winding down after the acquisition by Twitter. After several trials, I’ve decided to settle with Octopress hosted with Heroku due to several reasons:-</p>
 
 <ol>
@@ -43,9 +43,9 @@
   
   <entry>
     <title type="html"><![CDATA[Switch]]></title>
-    <link href="http://shernshiou.github.com/blog/blog/2012/04/25/switch/"/>
+    <link href="http://shernshiou.github.com/shernshiou/blog/2012/04/25/switch/"/>
     <updated>2012-04-25T00:00:00+08:00</updated>
-    <id>http://shernshiou.github.com/blog/blog/2012/04/25/switch</id>
+    <id>http://shernshiou.github.com/shernshiou/blog/2012/04/25/switch</id>
     <content type="html"><![CDATA[<p>I am considering switching from Posterous to Tumblr because of recent acquisition of Posterous by Twitter.</p>
 
 <blockquote>
@@ -56,9 +56,9 @@
   
   <entry>
     <title type="html"><![CDATA[Wooooot!]]></title>
-    <link href="http://shernshiou.github.com/blog/blog/2012/02/23/wooooot/"/>
+    <link href="http://shernshiou.github.com/shernshiou/blog/2012/02/23/wooooot/"/>
     <updated>2012-02-23T01:00:00+08:00</updated>
-    <id>http://shernshiou.github.com/blog/blog/2012/02/23/wooooot</id>
+    <id>http://shernshiou.github.com/shernshiou/blog/2012/02/23/wooooot</id>
     <content type="html"><![CDATA[<p>Just found out someone really did read my blog… Maybe I should post more.. :P</p>
 ]]></content>
   </entry>

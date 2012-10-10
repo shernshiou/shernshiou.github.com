@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Joke | Shern Shiou]]></title>
-  <link href="http://shernshiou.github.com/blog/blog/categories/joke/atom.xml" rel="self"/>
-  <link href="http://shernshiou.github.com/blog/"/>
-  <updated>2012-10-10T20:45:06+08:00</updated>
-  <id>http://shernshiou.github.com/blog/</id>
+  <link href="http://shernshiou.github.com/shernshiou/blog/categories/joke/atom.xml" rel="self"/>
+  <link href="http://shernshiou.github.com/shernshiou/"/>
+  <updated>2012-10-10T21:15:01+08:00</updated>
+  <id>http://shernshiou.github.com/shernshiou/</id>
   <author>
     <name><![CDATA[shernshiou]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Teka Teki]]></title>
-    <link href="http://shernshiou.github.com/blog/blog/2011/07/14/teka-teki/"/>
+    <link href="http://shernshiou.github.com/shernshiou/blog/2011/07/14/teka-teki/"/>
     <updated>2011-07-14T00:00:00+08:00</updated>
-    <id>http://shernshiou.github.com/blog/blog/2011/07/14/teka-teki</id>
+    <id>http://shernshiou.github.com/shernshiou/blog/2011/07/14/teka-teki</id>
     <content type="html"><![CDATA[<h3 id="question">Question</h3>
 <p>What does ps3 sets and women’s breasts have in common?</p>
 
@@ -33,9 +33,9 @@ M Bazli B Othman (ECRO/PETH)</p>
   
   <entry>
     <title type="html"><![CDATA[Pilihan Raya ke?]]></title>
-    <link href="http://shernshiou.github.com/blog/blog/2011/07/01/pilihan-raya-ke/"/>
+    <link href="http://shernshiou.github.com/shernshiou/blog/2011/07/01/pilihan-raya-ke/"/>
     <updated>2011-07-01T00:00:00+08:00</updated>
-    <id>http://shernshiou.github.com/blog/blog/2011/07/01/pilihan-raya-ke</id>
+    <id>http://shernshiou.github.com/shernshiou/blog/2011/07/01/pilihan-raya-ke</id>
     <content type="html"><![CDATA[<h3 id="scenario">Scenario</h3>
 <p>When they have their passport photo as their profile picture. (Be it Facebook, MSN….)</p>
 
@@ -51,9 +51,9 @@ Mr Ong XXX XXXN</p>
   
   <entry>
     <title type="html"><![CDATA[Level of Desperation]]></title>
-    <link href="http://shernshiou.github.com/blog/blog/2011/06/08/level-of-desperation/"/>
+    <link href="http://shernshiou.github.com/shernshiou/blog/2011/06/08/level-of-desperation/"/>
     <updated>2011-06-08T00:00:00+08:00</updated>
-    <id>http://shernshiou.github.com/blog/blog/2011/06/08/level-of-desperation</id>
+    <id>http://shernshiou.github.com/shernshiou/blog/2011/06/08/level-of-desperation</id>
     <content type="html"><![CDATA[<p>Level 1: You miss that thing.</p>
 
 <p>Level 2: You think of it everyday.</p>
